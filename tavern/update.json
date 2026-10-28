@@ -1,11 +1,11 @@
 {
-  "versionCode": 21,
-  "versionName": "3.0",
+  "versionCode": 22,
+  "versionName": "3.1",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "652627e0ae2e04f4a8119c901e33dfa12eabb52b1a1695824ed0dc8d27f000e8",
+  "sha256": "5f135df5d7cf4c597d6dd251bbe75518012ec1cbf5c312b52bb3c38669cb3840",
   "size": 168784,
-  "notes": "v3.0：修复插件包开着但包内命令仍显示“已关”、聊天页没有按钮。启用插件包会同步启用包内命令；新装插件命令默认启用；旧数据启动时迁移。包内命令仍可单独关闭。",
-  "releasedAt": "2026-10-29 04:46:37",
+  "notes": "v3.1：修复插件命令“显示 4 条但聊天页看不见按钮”。快捷栏是横向滚动，新包命令原来排在末尾被挤出屏幕；启用/安装插件时把该包命令提到快捷栏最前面，旧命令往后排。",
+  "releasedAt": "2026-10-29 04:50:29",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
