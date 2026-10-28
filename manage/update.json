@@ -1,7 +1,7 @@
 {
   "versionCode": 12,
   "versionName": "2.1",
-  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "apk": "https://10d42afb.r38.cpolar.top/whale-manage/update.apk",
   "sha256": "a6d99c9c9113c14fd60c2332505014f665b8bf606c20eee4d77510ca38abfde5",
   "size": 115841,
   "notes": "v2.1：修复确认执行报“方案和确认时不一样”。原生侧确认时对 JSONObject 重新规范序列化后再比 SHA-256，不再被前端 JSON 键顺序不同误判；方案内容未变才执行。",
