@@ -1,0 +1,11 @@
+{
+  "versionCode": 9,
+  "versionName": "1.8",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "a5d4a1453a15b4578740bb79493fb873af42dfe7ee691e1def64ad2068dbcc24",
+  "size": 103184,
+  "notes": "v1.8：角色卡 PNG 导入/导出——导出是一张 512x768 的卡面，角色卡（chara_card_v2）写进 PNG 的 chara 块，别的角色卡工具能直接读，导回来还是同一个角色；全局搜索能跨所有桌子搜消息正文，点一条直接跳到那条（v1.7 的「在对话里找」只管当前这桌）。",
+  "releasedAt": "2026-10-28 15:58:30",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "base": "https://10d42afb.r38.cpolar.top"
+}
