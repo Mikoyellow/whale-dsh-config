@@ -1,11 +1,11 @@
 {
-  "versionCode": 16,
-  "versionName": "2.5",
+  "versionCode": 17,
+  "versionName": "2.6",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "07d50c9124d416c073da25e9e4cc310759e2fc567a55bcf1b25ae912fc504b52",
+  "sha256": "6144a14476fa0d3f848c045c1d97af0b616620237452ee7614849fc881812dbb",
   "size": 164688,
-  "notes": "v2.5：修复插件“全局开关有时不生效”。全局开/关现在会同步清掉各会话对该插件包/包内命令的旧覆盖，再按全局状态生效；单桌仍可单独开关。",
-  "releasedAt": "2026-10-29 04:15:56",
+  "notes": "v2.6：修复卡片「展开/收起」点了没用。展开按钮在捕获阶段处理并阻止冒泡，不再被卡片本身的点击打开编辑器；角色/场景/房间卡片默认收起，逐条展开。",
+  "releasedAt": "2026-10-29 04:20:30",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
