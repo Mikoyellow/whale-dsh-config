@@ -1,0 +1,10 @@
+{
+  "versionCode": 51,
+  "versionName": "1.50",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "5c1f70e1443c1b3386742bbd2aa78c6dd6d243b25a36a1c67f54ab6ab1cca851",
+  "size": 5527359,
+  "notes": "v1.50：一个回复里发好几个文件，每个文件卡都有自己的「下载」。① 以前多张卡只有一个能下：角标是按「命中的那一整块」挂的，一个容器里装着好几张卡时整段只出一个「下载」，点下去还只下第一个文件。现在先拆成「一个文件 = 一行」，容器里的每一行各自挂自己的角标、各自记自己的文件名和绝对路径，点哪张卡就下哪个文件。② 以前只有拷进 relay/public-files 的文件才有角标（说明文档、截图这些永远没有）；现在卡片自带路径的直接走电脑端 /api/file 通道取，原生下载器带上配对 Cookie，不用先拷文件，20 MB 以内都能下。③ 角标改成真按钮：右上角点一下就开始下，不再只能点整张卡。公网入口：https://10d42afb.r38.cpolar.top。",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "base": "https://10d42afb.r38.cpolar.top"
+}
