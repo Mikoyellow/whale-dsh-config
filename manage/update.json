@@ -1,11 +1,11 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
-  "apk": "https://10d42afb.r38.cpolar.top/whale-manage/update.apk",
-  "sha256": "7c5cc54991e6df39f81bab6572e4edff59f17daa7e463ed6780ccec92c7ef518",
-  "size": 111745,
-  "notes": "v1.9：① 更新清单默认改读 GitHub 仓库目录（manage/update.json），cpolar 隧道降级成兜底源，隧道换域名不用重发 App。② 原生更新器和浏览器通道都改成「主源失败就换下一条候选」，以前主源超时 / 502 直接判「检查失败」，兜底地址根本用不上；失败提示里带上已经试过的地址。③ 检查结果显示清单来源（GitHub / 隧道）；清单里的相对 apk 地址按「实际命中的源」拼，来源是 GitHub 时自动落到隧道那份，不再 404。④ 老默认地址（隧道 /whale-manage）自动迁到 GitHub 目录。",
-  "releasedAt": "2026-10-28 23:27:07",
+  "versionCode": 11,
+  "versionName": "2.0",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "073c8cd3bdfdd05c60c7d823b6af3cdf0ca1b7747d313504dcc141a29c46feb5",
+  "size": 115841,
+  "notes": "v2.0：① system prompt 重写成「先硬性操作契约、人设只管语气」，不再用「（点点头，没说话）」代替回答，每次先给数量/路径；② 模型没返回 tool_calls 时带 tool_choice=required 强制重试一次，仍没有就明说「当前模型没有调用工具，换 deepseek-chat」；③ 默认模型 deepseek-chat，选 flash/免费通道时设置页与 AI 页提示可能不支持工具调用；④ 工具跑完后最终回答一定带数量/路径（模型只回动作时用工具结果兜底）；⑤ 扫到 N 个文件后问「扫描完了吗」直接报 N。",
+  "releasedAt": "2026-10-29 02:21:10",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/manage/update.json",
   "base": "https://10d42afb.r38.cpolar.top"
