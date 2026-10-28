@@ -1,11 +1,12 @@
 {
-  "versionCode": 9,
-  "versionName": "1.8",
-  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
-  "sha256": "a0cf251157c76c9b77e97f258637e69b0ebc472f81d29154ac73e2495252c546",
-  "size": 107649,
-  "notes": "v1.8：① 账本多了「定期流水」——给房租/会员/工资这类固定收支建一条规则（每月 1-28 日），到点在这一页提示「待记 N 笔」，你点「待记入账」才写进账本（来源标「定期」），也可以「本月跳过」、停用或删除；规则不会在后台自己记账。② 预算多了预测——按已过天数外推到月底：日均多少、月底大概花多少、会不会超、剩几天每天可用多少；已经超了就直接说超多少。",
-  "releasedAt": "2026-10-28 15:56:01",
+  "versionCode": 10,
+  "versionName": "1.9",
+  "apk": "https://10d42afb.r38.cpolar.top/whale-manage/update.apk",
+  "sha256": "7c5cc54991e6df39f81bab6572e4edff59f17daa7e463ed6780ccec92c7ef518",
+  "size": 111745,
+  "notes": "v1.9：① 更新清单默认改读 GitHub 仓库目录（manage/update.json），cpolar 隧道降级成兜底源，隧道换域名不用重发 App。② 原生更新器和浏览器通道都改成「主源失败就换下一条候选」，以前主源超时 / 502 直接判「检查失败」，兜底地址根本用不上；失败提示里带上已经试过的地址。③ 检查结果显示清单来源（GitHub / 隧道）；清单里的相对 apk 地址按「实际命中的源」拼，来源是 GitHub 时自动落到隧道那份，不再 404。④ 老默认地址（隧道 /whale-manage）自动迁到 GitHub 目录。",
+  "releasedAt": "2026-10-28 23:27:07",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/manage/update.json",
   "base": "https://10d42afb.r38.cpolar.top"
 }
