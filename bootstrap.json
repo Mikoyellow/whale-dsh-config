@@ -1,6 +1,6 @@
 {
   "base": "https://10d42afb.r38.cpolar.top",
-  "updated": "2026-10-29T04:16:01+08:00",
+  "updated": "2026-10-29T04:20:35+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -40,8 +40,8 @@
     },
     "tavern": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json",
-      "version": "2.5",
-      "versionCode": 16,
+      "version": "2.6",
+      "versionCode": 17,
       "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk"
     },
     "omnihub": {
