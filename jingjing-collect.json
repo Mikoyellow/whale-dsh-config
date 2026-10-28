@@ -1,0 +1,11 @@
+{
+  "versionCode": 19,
+  "versionName": "1.18",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "3e3b0e579465b36f376be73db3df1d976e9e8a4542192eda551ffbfb8a2ca5f3",
+  "size": 123661,
+  "notes": "v1.18：① 收集页多了「批量链接导入」——一行一条 http(s)，最多 20 条，逐条抓标题和正文再入库；已有同一链接（归一后）自动跳过，失败的那几条单独列出来，不影响其它条。② 资料库多了「去重合并」——同一链接（没有链接时按「标题+来源」）只留内容最全/收藏的那条，标签与要点取并集、收藏取或、正文取更长，8 秒内可撤销（连保留那条被改的字段一起还原）。",
+  "releasedAt": "2026-10-28 15:55:50",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "base": "https://10d42afb.r38.cpolar.top"
+}
