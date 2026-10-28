@@ -1,11 +1,12 @@
 {
   "versionCode": 12,
   "versionName": "2.1",
-  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
   "sha256": "79170b0b94a4da7e3ba45e96dd381fa01cbc972b7d0e4be8393d291583777e81",
   "size": 148304,
   "notes": "v2.1：场景一键开聊（列表/详情「用这个场景开始」，空场景可单人旁白，游戏场景带状态规则）；工坊生成的角色可批量加入场景、用角色新建场景、场景卡存完立即开聊，角色编辑器显示所属场景；修工坊空内容（默认 deepseek-chat、flash 提示、空内容自动重试一次、max_tokens 提高、解析失败不编造）",
   "releasedAt": "2026-10-29 02:37:35",
   "base": "https://10d42afb.r38.cpolar.top",
-  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json"
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
 }
