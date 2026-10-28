@@ -1,11 +1,11 @@
 {
-  "versionCode": 19,
-  "versionName": "2.8",
+  "versionCode": 20,
+  "versionName": "2.9",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "768be23c6119eb9dad1bdcef4084c7e91d158024c5613d85550fc87636d139f2",
+  "sha256": "4a0062d54c371f1fa2f751b2809e030d7b4ca6ebc5ba2fd479bd6a5afd7c446a",
   "size": 168784,
-  "notes": "v2.8：修复旧插件装过之后仍不显示按钮。启动时迁移已有插件/指令的作用域：角色名/场景名解析成真实 id，找不到就降级全局；新装和旧装插件都会刷新快捷栏。",
-  "releasedAt": "2026-10-29 04:39:25",
+  "notes": "v2.9：修复每次都要重新粘更新地址才检测到新版。更新检查会继续比较 raw 镜像、cpolar 和 GitHub Contents API，某个镜像返回旧版本时不再提前停；API 是实时的，绕过 raw.githubusercontent.com 的 CDN 缓存。",
+  "releasedAt": "2026-10-29 04:42:21",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
