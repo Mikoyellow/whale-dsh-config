@@ -1,11 +1,11 @@
 {
-  "versionCode": 14,
-  "versionName": "2.3",
+  "versionCode": 16,
+  "versionName": "2.5",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "dd431143698080e2cf162dc37249a0af0b02ea765b33077e80456abcfb9d8471",
-  "size": 160592,
-  "notes": "v2.3：修复“世界观只能存成场景”。工坊「世界观设定」改为结构化 worldview 输出（不再走纯文本），生成后可直接存进世界观库；场景编辑器可从世界观库导入并合并/覆盖，也可用世界观新建场景。旧文本结果不再冒充结构化数据。",
-  "releasedAt": "2026-10-29 03:44:08",
+  "sha256": "07d50c9124d416c073da25e9e4cc310759e2fc567a55bcf1b25ae912fc504b52",
+  "size": 164688,
+  "notes": "v2.5：修复插件“全局开关有时不生效”。全局开/关现在会同步清掉各会话对该插件包/包内命令的旧覆盖，再按全局状态生效；单桌仍可单独开关。",
+  "releasedAt": "2026-10-29 04:15:56",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
