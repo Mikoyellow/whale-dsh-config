@@ -1,11 +1,11 @@
 {
-  "versionCode": 18,
-  "versionName": "2.7",
+  "versionCode": 19,
+  "versionName": "2.8",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "5dc31d4df43f6bf0578204d5259825027828967f72057694ca69c54c3bda38a2",
-  "size": 164688,
-  "notes": "v2.7：修复“对话里开新插件不出按钮”。工坊/导入插件的作用域如果写的是角色名/场景名，会解析成真实 id；找不到匹配就降级为全局，确保这一桌能看到按钮。启用插件后会刷新聊天快捷栏，并提示实际显示了几条命令/作用域不匹配。",
-  "releasedAt": "2026-10-29 04:33:47",
+  "sha256": "768be23c6119eb9dad1bdcef4084c7e91d158024c5613d85550fc87636d139f2",
+  "size": 168784,
+  "notes": "v2.8：修复旧插件装过之后仍不显示按钮。启动时迁移已有插件/指令的作用域：角色名/场景名解析成真实 id，找不到就降级全局；新装和旧装插件都会刷新快捷栏。",
+  "releasedAt": "2026-10-29 04:39:25",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
