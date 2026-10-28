@@ -1,10 +1,10 @@
 {
-  "versionCode": 51,
-  "versionName": "1.50",
+  "versionCode": 52,
+  "versionName": "1.51",
   "apk": "https://10d42afb.r38.cpolar.top/update.apk",
-  "sha256": "5c1f70e1443c1b3386742bbd2aa78c6dd6d243b25a36a1c67f54ab6ab1cca851",
+  "sha256": "72445c993824f3cf765b9bb80ee8fb089c7016640d468871419a37f52b18a1be",
   "size": 5527359,
-  "notes": "v1.50：一个回复里发好几个文件，每个文件卡都有自己的「下载」。① 以前多张卡只有一个能下：角标是按「命中的那一整块」挂的，一个容器里装着好几张卡时整段只出一个「下载」，点下去还只下第一个文件。现在先拆成「一个文件 = 一行」，容器里的每一行各自挂自己的角标、各自记自己的文件名和绝对路径，点哪张卡就下哪个文件。② 以前只有拷进 relay/public-files 的文件才有角标（说明文档、截图这些永远没有）；现在卡片自带路径的直接走电脑端 /api/file 通道取，原生下载器带上配对 Cookie，不用先拷文件，20 MB 以内都能下。③ 角标改成真按钮：右上角点一下就开始下，不再只能点整张卡。公网入口：https://10d42afb.r38.cpolar.top。",
-  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
-  "base": "https://10d42afb.r38.cpolar.top"
+  "notes": "v1.51：更新检查改成先问公网那份固定清单，不再要求先连上电脑。① 以前更新只问「当前 origin + /update.json」：cpolar 一换域名、或者还没填地址，就彻底查不到更新（「连不上 → 想更新修好它 → 更新却要求先连上」是死结）。现在先取 https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json（固定地址，换域名也不用重发版），拿不到或解析失败才退回 origin/update.json，行为跟以前一样。② 清单里的 apk 已经是绝对地址，所以就算没连电脑，点「立即更新」也能从公网入口下包（SHA-256 校验、缓存复用、「跳过这个版本」「稍后再说」都没动）。③「连接诊断」多一行「公网清单（GitHub）」，一眼看出是公网那份不通还是 relay 那条不通。④ 浏览器下载、更新说明、复制直链、配对密钥全部照旧，没碰配对流程。公网入口：https://10d42afb.r38.cpolar.top。",
+  "base": "https://10d42afb.r38.cpolar.top",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json"
 }
