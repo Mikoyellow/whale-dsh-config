@@ -1,0 +1,11 @@
+{
+  "versionCode": 12,
+  "versionName": "2.1",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "5fdf984e46767cdf6b23d037ba211cc06b52f53723dbb143cc6720fa0958e9b0",
+  "size": 123847,
+  "notes": "v2.1：① 重复文件可按「最早修改 / 路径最短」切换建议保留哪一份，组头一键复制本组路径、复制整份重复清单 CSV（仍然只列不删，删不删你自己定）。② 每个候选多了「详情」：点开看完整路径 / 大小 / 修改时间 / 判定理由 / 白名单状态，顺手复制路径、按文件或整个目录加白。③ 白名单支持批量导入（一行一条，自动去重、跳过 ../）、一键复制导出、整目录加白，并统计「几个目录 / 几个文件」；所有白名单操作只影响显示与勾选，不动磁盘。",
+  "releasedAt": "2026-10-28 15:55:38",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "base": "https://10d42afb.r38.cpolar.top"
+}
