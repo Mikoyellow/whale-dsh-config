@@ -1,11 +1,11 @@
 {
-  "versionCode": 20,
-  "versionName": "2.9",
+  "versionCode": 21,
+  "versionName": "3.0",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "4a0062d54c371f1fa2f751b2809e030d7b4ca6ebc5ba2fd479bd6a5afd7c446a",
+  "sha256": "652627e0ae2e04f4a8119c901e33dfa12eabb52b1a1695824ed0dc8d27f000e8",
   "size": 168784,
-  "notes": "v2.9：修复每次都要重新粘更新地址才检测到新版。更新检查会继续比较 raw 镜像、cpolar 和 GitHub Contents API，某个镜像返回旧版本时不再提前停；API 是实时的，绕过 raw.githubusercontent.com 的 CDN 缓存。",
-  "releasedAt": "2026-10-29 04:42:21",
+  "notes": "v3.0：修复插件包开着但包内命令仍显示“已关”、聊天页没有按钮。启用插件包会同步启用包内命令；新装插件命令默认启用；旧数据启动时迁移。包内命令仍可单独关闭。",
+  "releasedAt": "2026-10-29 04:46:37",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
