@@ -1,12 +1,11 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
-  "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "cc2c810dec85765a7dafa7f426e8d87ce6d09fab375aa28c1b1f40d8c80f7409",
-  "size": 107280,
-  "notes": "v1.9：① 更新清单默认改读 GitHub 仓库目录（tavern/update.json），cpolar 隧道做内置兜底（updateCandidates 里排在用户备用地址之后）。② 原生更新器补上换源：以前只有「浏览器通道」会试备用地址，原生那条路只认主地址，GitHub 或隧道任一边出错就直接「检查失败」；现在两边都会依次试，并在提示里写明清单来源、失败时列出试过的地址。③ 清单里相对路径的 apk 按实际命中的源拼，来源是 GitHub 时落回隧道的 /whale-tavern/update.apk。④ 老默认地址（隧道 /whale-tavern）自动迁到 GitHub 目录。",
-  "releasedAt": "2026-10-28 23:27:07",
-  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
-  "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json",
-  "base": "https://10d42afb.r38.cpolar.top"
+  "versionCode": 11,
+  "versionName": "2.0",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "c80581b5f4f3ce6e9508a5cc8b82a78ea506c1c8df53a23c418c6a62f0119b90",
+  "size": 140112,
+  "notes": "v2.0：多角色房间（1–6 人、成员条显示当前发言者、加删排序、指定/轮流/AI 判断、每人独立模型 18+ 系统提示、上下文按角色隔离）；场景可带默认角色一次带多人、分角色扮演与游戏主持；快速指令 + 插件包 JSON 导入导出；游戏场景世界状态/属性/roll 骰子/选项/回合记录；新增 AI 工坊；旧数据自动迁移。",
+  "releasedAt": "2026-10-29 02:15:49",
+  "base": "https://10d42afb.r38.cpolar.top",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json"
 }
