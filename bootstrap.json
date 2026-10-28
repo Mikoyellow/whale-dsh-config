@@ -1,54 +1,54 @@
-{
-  "base": "https://10d42afb.r38.cpolar.top",
-  "updated": "2026-10-28T23:16:32+08:00",
-  "apps": {
-    "dsh": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh.json",
-      "version": "1.50",
-      "versionCode": 51,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "surf": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/whale-surf.json",
-      "version": "2.9",
-      "versionCode": 19,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "create": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/whale-create.json",
-      "version": "2.5",
-      "versionCode": 16,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "clean": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/whale-clean.json",
-      "version": "2.1",
-      "versionCode": 12,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "collect": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/jingjing-collect.json",
-      "version": "1.18",
-      "versionCode": 19,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "manage": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/whale-manage.json",
-      "version": "1.8",
-      "versionCode": 9,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "tavern": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/whale-tavern.json",
-      "version": "1.8",
-      "versionCode": 9,
-      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
-    },
-    "omnihub": {
-      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub.json",
-      "version": "1.31",
-      "versionCode": 32,
-      "apk": "https://10d42afb.r38.cpolar.top/omnihub/update.apk"
-    }
-  }
+﻿{
+    "base":  "https://10d42afb.r38.cpolar.top",
+    "updated":  "2026-10-28T23:16:32+08:00",
+    "apps":  {
+                 "dsh":  {
+                             "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
+                             "version":  "1.50",
+                             "versionCode":  51,
+                             "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                         },
+                 "surf":  {
+                              "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/surf/update.json",
+                              "version":  "2.9",
+                              "versionCode":  19,
+                              "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                          },
+                 "create":  {
+                                "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/create/update.json",
+                                "version":  "2.5",
+                                "versionCode":  16,
+                                "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                            },
+                 "clean":  {
+                               "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/clean/update.json",
+                               "version":  "2.1",
+                               "versionCode":  12,
+                               "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                           },
+                 "collect":  {
+                                 "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/collect/update.json",
+                                 "version":  "1.18",
+                                 "versionCode":  19,
+                                 "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                             },
+                 "manage":  {
+                                "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/manage/update.json",
+                                "version":  "1.8",
+                                "versionCode":  9,
+                                "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                            },
+                 "tavern":  {
+                                "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json",
+                                "version":  "1.8",
+                                "versionCode":  9,
+                                "apk":  "https://10d42afb.r38.cpolar.top/update.apk"
+                            },
+                 "omnihub":  {
+                                 "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json",
+                                 "version":  "1.31",
+                                 "versionCode":  32,
+                                 "apk":  "https://10d42afb.r38.cpolar.top/omnihub/update.apk"
+                             }
+             }
 }
