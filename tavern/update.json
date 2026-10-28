@@ -1,11 +1,11 @@
 {
-  "versionCode": 11,
-  "versionName": "2.0",
+  "versionCode": 12,
+  "versionName": "2.1",
   "apk": "https://10d42afb.r38.cpolar.top/update.apk",
-  "sha256": "c80581b5f4f3ce6e9508a5cc8b82a78ea506c1c8df53a23c418c6a62f0119b90",
-  "size": 140112,
-  "notes": "v2.0：多角色房间（1–6 人、成员条显示当前发言者、加删排序、指定/轮流/AI 判断、每人独立模型 18+ 系统提示、上下文按角色隔离）；场景可带默认角色一次带多人、分角色扮演与游戏主持；快速指令 + 插件包 JSON 导入导出；游戏场景世界状态/属性/roll 骰子/选项/回合记录；新增 AI 工坊；旧数据自动迁移。",
-  "releasedAt": "2026-10-29 02:15:49",
+  "sha256": "79170b0b94a4da7e3ba45e96dd381fa01cbc972b7d0e4be8393d291583777e81",
+  "size": 148304,
+  "notes": "v2.1：场景一键开聊（列表/详情「用这个场景开始」，空场景可单人旁白，游戏场景带状态规则）；工坊生成的角色可批量加入场景、用角色新建场景、场景卡存完立即开聊，角色编辑器显示所属场景；修工坊空内容（默认 deepseek-chat、flash 提示、空内容自动重试一次、max_tokens 提高、解析失败不编造）",
+  "releasedAt": "2026-10-29 02:37:35",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json"
 }
