@@ -1,0 +1,11 @@
+{
+  "versionCode": 16,
+  "versionName": "2.5",
+  "apk": "https://10d42afb.r38.cpolar.top/update.apk",
+  "sha256": "e084c0a5c6847b784f30233c15ce75538271144cb056855c9cf2ba6c23519f72",
+  "size": 95057,
+  "notes": "v2.5：提示词模板（6 个图片模板 + 2 个视频模板，{主体} 自动选中替换，也能把当前提示词存成自己的模板，最多 40 条）；作品页按天分组，可以搜提示词/模型/文件名，并把当前筛选结果导出成 .csv 清单。",
+  "releasedAt": "2026-10-28 15:55:04",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "base": "https://10d42afb.r38.cpolar.top"
+}
