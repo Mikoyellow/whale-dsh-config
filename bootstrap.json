@@ -1,6 +1,6 @@
 {
   "base": "https://10d42afb.r38.cpolar.top",
-  "updated": "2026-10-28T23:37:14+08:00",
+  "updated": "2026-10-29T02:21:59+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -34,15 +34,15 @@
     },
     "manage": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/manage/update.json",
-      "version": "1.9",
-      "versionCode": 10,
-      "apk": "https://10d42afb.r38.cpolar.top/whale-manage/update.apk"
+      "version": "2.0",
+      "versionCode": 11,
+      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
     },
     "tavern": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json",
-      "version": "1.9",
-      "versionCode": 10,
-      "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk"
+      "version": "2.0",
+      "versionCode": 11,
+      "apk": "https://10d42afb.r38.cpolar.top/update.apk"
     },
     "omnihub": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json",
