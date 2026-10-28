@@ -1,11 +1,11 @@
 {
-  "versionCode": 13,
-  "versionName": "2.2",
+  "versionCode": 14,
+  "versionName": "2.3",
   "apk": "https://10d42afb.r38.cpolar.top/whale-tavern/update.apk",
-  "sha256": "20b6d94b95bd748917d92a176fb316ea8d2991698aafbe96c103bf4bd52e2fbb",
+  "sha256": "dd431143698080e2cf162dc37249a0af0b02ea765b33077e80456abcfb9d8471",
   "size": 160592,
-  "notes": "v2.2：AI 工坊新增「插件包」「世界观」创作模式（多命令插件包一键进插件库；世界观含规则/势力/地点/时间线/标签/开场，可编辑、复制、导入导出）；场景编辑器支持从世界观库导入（覆盖/合并）与「用这个世界观新建场景」；房间顶部「插件」开关（总开关/按包/按命令，按会话保存，关掉后 /别名 不触发，角色与场景作用域按整桌过滤）；插件库 / 世界观库本机持久化，旧数据自动迁移不丢",
-  "releasedAt": "2026-10-29 03:27:20",
+  "notes": "v2.3：修复“世界观只能存成场景”。工坊「世界观设定」改为结构化 worldview 输出（不再走纯文本），生成后可直接存进世界观库；场景编辑器可从世界观库导入并合并/覆盖，也可用世界观新建场景。旧文本结果不再冒充结构化数据。",
+  "releasedAt": "2026-10-29 03:44:08",
   "base": "https://10d42afb.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
