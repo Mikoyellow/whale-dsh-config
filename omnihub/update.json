@@ -1,13 +1,16 @@
 {
   "versionCode": 33,
   "versionName": "1.32",
-  "url": "https://10d42afb.r38.cpolar.top/omnihub/update.apk",
+  "url": "https://645fdee9.r38.cpolar.top/omnihub/update.apk",
+  "urls": [
+    "https://645fdee9.r38.cpolar.top/omnihub/update.apk"
+  ],
   "size": 192987,
   "sha256": "5149d99fd81fc36a706dbbecd3491f1ec8b246a6d58beedeb3ad16c087a9b36f",
-  "changelog": "v1.32（versionCode 33）：更新清单不再写死在 cpolar 那一条上。\n\n1. 默认清单换成 GitHub 上的固定文件：https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json。cpolar 换域名、换台电脑、临时关机，都照样查得到有没有新版。\n2. 拉不到就自动退回：GitHub 那条被墙 / 断网 / 返回 404 时，按顺序试 https://10d42afb.r38.cpolar.top/omnihub/update.json（relay 的 /omnihub 路由会把 url 改写成相对地址），再试设置页里你自己填的备用清单。三条都不通才报「检查失败」，弹窗里会列出到底试了哪几条。\n3. 「用浏览器下载」的兜底地址改成 cpolar 的绝对直链 https://10d42afb.r38.cpolar.top/omnihub/update.apk——清单在 GitHub 上时它旁边并没有 update.apk，以前那样拼会拿到 404。\n4. 清单里的 url 依旧是 cpolar 的绝对地址（release/update.json 同步），所以下载、断点续传、SHA-256 校验、设置页「更新清单地址」全都没变。\n\n工程名 OmniHub，包名 com.omnihub，旧版可直接覆盖安装。",
+  "changelog": "v1.28（versionCode 29）\n\n1. 新增 Wattpad 小说源（公开 JSON API，无需登录）\n   - 列表/搜索 /api/v3/stories，详情 /api/v3/stories/{id}，正文 /apiv2/storytext（gzip）\n   - 20 条全部带发布日期与封面；翻页、关键词搜索均可用\n   - 实测：带站点首页 Referer 只会回 7 条，已改为不带 Referer\n   - 实测：同一 URL 首次只回 7 条，已加一次重试兜底\n2. 修复封面解析：Wattpad 的 cover 是字符串 URL（不是对象），旧写法取不到\n",
   "mandatory": false,
-  "apk": "https://10d42afb.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://10d42afb.r38.cpolar.top",
+  "apk": "https://645fdee9.r38.cpolar.top/omnihub/update.apk",
+  "base": "https://645fdee9.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
