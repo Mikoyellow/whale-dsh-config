@@ -1,16 +1,16 @@
 {
-  "versionCode": 33,
-  "versionName": "1.32",
-  "url": "https://645fdee9.r38.cpolar.top/omnihub/update.apk",
+  "versionCode": 34,
+  "versionName": "1.33",
+  "url": "https://3b0b1dd.r38.cpolar.top/omnihub/update.apk",
   "urls": [
-    "https://645fdee9.r38.cpolar.top/omnihub/update.apk"
+    "http://192.168.1.2:8000/OmniHub-v1.33.apk"
   ],
-  "size": 192987,
-  "sha256": "5149d99fd81fc36a706dbbecd3491f1ec8b246a6d58beedeb3ad16c087a9b36f",
-  "changelog": "v1.28（versionCode 29）\n\n1. 新增 Wattpad 小说源（公开 JSON API，无需登录）\n   - 列表/搜索 /api/v3/stories，详情 /api/v3/stories/{id}，正文 /apiv2/storytext（gzip）\n   - 20 条全部带发布日期与封面；翻页、关键词搜索均可用\n   - 实测：带站点首页 Referer 只会回 7 条，已改为不带 Referer\n   - 实测：同一 URL 首次只回 7 条，已加一次重试兜底\n2. 修复封面解析：Wattpad 的 cover 是字符串 URL（不是对象），旧写法取不到\n",
+  "size": 197083,
+  "sha256": "be6c879681a11f832554d2831d464121cd8bd19bb7abeed80d07ae0e9bae27db",
+  "changelog": "v1.33（versionCode 34）\n\n1. 新增 Eporner 视频源（公开 JSON API，无需 key；每条自带 added 发布时间、时长、缩略图）\n2. 新增 Wattpad 小说源（公开 JSON API；列表带 createDate；正文走 apiv2/storytext）\n3. 修复 MangaDex：站点新增 edge 反爬挑战（302），实测「不带 User-Agent」可 200，已改为空 UA 请求\n4. 更新主地址恢复为 GitHub raw（此前被误改为临时隧道）\n",
   "mandatory": false,
-  "apk": "https://645fdee9.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://645fdee9.r38.cpolar.top",
+  "apk": "https://3b0b1dd.r38.cpolar.top/omnihub/update.apk",
+  "base": "https://3b0b1dd.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
