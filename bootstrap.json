@@ -1,12 +1,12 @@
 {
   "base": "https://62e7c94a.r38.cpolar.top",
   "key": "95070-301F4",
-  "updated": "2026-11-06T13:40:08+08:00",
+  "updated": "2026-11-06T14:13:09+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
-      "version": "1.52",
-      "versionCode": 53,
+      "version": "1.53",
+      "versionCode": 54,
       "apk": "https://62e7c94a.r38.cpolar.top/update.apk"
     },
     "surf": {
