@@ -1,7 +1,7 @@
 {
   "base": "https://62e7c94a.r38.cpolar.top",
   "key": "95070-301F4",
-  "updated": "2026-11-05T12:16:10+08:00",
+  "updated": "2026-11-06T13:40:08+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -47,8 +47,8 @@
     },
     "omnihub": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json",
-      "version": "1.35",
-      "versionCode": 36,
+      "version": "1.36",
+      "versionCode": 37,
       "apk": "https://62e7c94a.r38.cpolar.top/omnihub/update.apk"
     },
     "download": {
