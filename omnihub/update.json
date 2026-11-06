@@ -1,13 +1,10 @@
 {
-  "versionCode": 37,
-  "versionName": "1.36",
+  "versionCode": 38,
+  "versionName": "1.37",
   "url": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
-  "urls": [
-    "http://192.168.1.2:8000/OmniHub-v1.36.apk"
-  ],
-  "size": 197083,
-  "sha256": "c637a7ef98a99d1990210fe896ff91921060c02bf3d99041db1fd05c0bcea043",
-  "changelog": "v1.36（versionCode 37）\n\n1. 修复禁漫加载极慢：全部域名 403 时，旧逻辑逐个等 25 秒超时，一轮 116 秒\n   - 现在：单域名 4 秒、整体预算 8 秒、探不到就负缓存 5 分钟\n   - 实测：116 秒 → 9.9 秒，同一进程内第二次 0 毫秒\n2. 禁漫探活不再修改全局 Http.userAgent（原先会顺手影响同时运行的其它源）\n3. 全源真站体检（代理出口）：13 个源中 8 个正常出数据\n",
+  "size": 5383224,
+  "sha256": "8df3c5b11363a2b4def4aa8b035b1ba43bdcc6a0381ba0e39a2f36226f98c1ea",
+  "changelog": "v1.37（versionCode 38）\n\n1. 新增「Flash 游戏」页（MainActivity 顶部 / 设置页都有入口）\n   - 用 Ruffle 0.7.1（WebAssembly Flash 模拟器）在 WebView 里播 SWF；ruffle.js、core 模块、\n     wasm 全部打进 APK 的 assets（14.2MB，压缩后 APK 只多约 5MB），完全离线可用，不依赖 CDN。\n   - 资源走内部虚拟站点 https://omnihub.local/，由 shouldInterceptRequest 从 assets 直接喂给\n     WebView，所以 wasm 的 MIME 和同源都正常；Ruffle 挂了会显示中文原因，不会白屏。\n\n2. 三种来源\n   - 链接：直接给 SWF 网址（会被记住，最近 6 条可点）；站点跨域拦住时，页面有「下载到本地再播放」。\n   - 本地文件：ACTION_OPEN_DOCUMENT 选 .swf，复制到 cache 再播（原文件不动）。\n   - 电脑：走 relay 的 /pc/roots、/pc/list、/pc/get（要配对密钥），默认直接进\n     「Flash 游戏合集 · D:\\flash-games」，列出 24 个系列目录，目录后面显示 .swf 数量\n     （后台调 /pc/list 统计，有缓存），点 .swf 下载到 cache 再播；可返回上级到 D:\\，\n     也能手选其它盘符。地址/密钥记住，bootstrap.json 可刷新。\n     —— 13k 个 SWF 不打包进 APK，按需从电脑取。\n\n3. 虚拟手柄 / 电脑按键模拟（可自定义布局）\n   - 悬浮在画面上的按键层：方向键、Z/X、空格、Enter、Esc、鼠标左/右键、触控板，还能自己加键。\n   - 按键不是发 Android KeyEvent，而是 evaluateJavascript 到页面里派发：\n     键盘用 KeyboardEvent（key/code/keyCode 一起给，keydown + keyup）发到 ruffle-player；\n     鼠标用 pointerdown/up/move + mousedown/up/move 发到 shadowRoot 里的 canvas。\n   - 长按任一按键进入编辑模式：拖动移动（8dp 网格对齐、有网格线）、双指缩放，\n     可改标签、改映射键值、调透明度、调大小、删除、加自定义键；保存按游戏 + 全局默认，\n     随时恢复默认布局；Esc 是否退出编辑/退出全屏可配置。\n     顶栏「手柄」按钮一键隐藏/显示（半透明不挡画面）。\n\n4. 播放器细节：全屏 / 横竖屏切换 / 音量键调音量（带百分比提示）/ 返回键先退出全屏和编辑模式；\n   WebView 硬件加速、保持常亮。\n\n5. 兼容性老实说：Ruffle 只支持部分 AS2/AS3，界面上写的是「兼容性有限，部分游戏无法运行」，\n   不承诺全部能跑。本页只播放用户自己提供的 SWF，不解析、不破解游戏内付费内容。\n\n6. 现有源/下载/收藏/更新逻辑没动；构建脚本加了 assets 打包（并修了 aapt2 在 Windows 上把\n   assets 条目名写成反斜杠的问题，否则 AssetManager 找不到文件）。\n",
   "mandatory": false,
   "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
   "base": "https://6cfe8a67.r9.vip.cpolar.cn",
