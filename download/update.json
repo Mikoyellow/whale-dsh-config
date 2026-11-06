@@ -1,12 +1,12 @@
 {
   "versionCode": 2,
   "versionName": "1.1",
-  "apk": "https://62e7c94a.r38.cpolar.top/whale-download/update.apk",
+  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-download/update.apk",
   "sha256": "65ae79f216408652314ae1e4bd4d6aaa5f7b48589a9b2739efc289bb573ab293",
   "size": 82704,
   "notes": "首个版本",
   "releasedAt": "2026-11-03 14:00:19",
-  "base": "https://62e7c94a.r38.cpolar.top",
+  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/download/update.json"
 }
