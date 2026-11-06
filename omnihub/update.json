@@ -1,7 +1,7 @@
 {
   "versionCode": 37,
   "versionName": "1.36",
-  "url": "https://62e7c94a.r38.cpolar.top/omnihub/update.apk",
+  "url": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
   "urls": [
     "http://192.168.1.2:8000/OmniHub-v1.36.apk"
   ],
@@ -9,8 +9,8 @@
   "sha256": "c637a7ef98a99d1990210fe896ff91921060c02bf3d99041db1fd05c0bcea043",
   "changelog": "v1.36（versionCode 37）\n\n1. 修复禁漫加载极慢：全部域名 403 时，旧逻辑逐个等 25 秒超时，一轮 116 秒\n   - 现在：单域名 4 秒、整体预算 8 秒、探不到就负缓存 5 分钟\n   - 实测：116 秒 → 9.9 秒，同一进程内第二次 0 毫秒\n2. 禁漫探活不再修改全局 Http.userAgent（原先会顺手影响同时运行的其它源）\n3. 全源真站体检（代理出口）：13 个源中 8 个正常出数据\n",
   "mandatory": false,
-  "apk": "https://62e7c94a.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://62e7c94a.r38.cpolar.top",
+  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
+  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
