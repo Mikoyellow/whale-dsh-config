@@ -1,7 +1,7 @@
 {
   "base": "https://6cfe8a67.r9.vip.cpolar.cn",
   "key": "95070-301F4",
-  "updated": "2026-11-06T15:08:03+08:00",
+  "updated": "2026-11-06T15:10:13+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -69,8 +69,8 @@
     },
     "download": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/download/update.json",
-      "version": "1.2",
-      "versionCode": 3,
+      "version": "1.3",
+      "versionCode": 4,
       "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-download/update.apk",
       "name": "鲸鲸下载",
       "package": "com.yg.whaledownload"
@@ -85,8 +85,8 @@
     },
     "mota": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/mota/update.json",
-      "version": "1.1",
-      "versionCode": 2,
+      "version": "1.0",
+      "versionCode": 1,
       "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-mota/update.apk",
       "name": "鲸鲸魔塔",
       "package": "com.yg.whalemota"
