@@ -1,12 +1,12 @@
 {
   "base": "https://6cfe8a67.r9.vip.cpolar.cn",
   "key": "95070-301F4",
-  "updated": "2026-11-06T15:10:30+08:00",
+  "updated": "2026-11-06T15:14:25+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
-      "version": "1.53",
-      "versionCode": 54,
+      "version": "1.54",
+      "versionCode": 55,
       "apk": "https://6cfe8a67.r9.vip.cpolar.cn/update.apk",
       "name": "鲸鲸 / DSH",
       "package": "com.dsh.mobile"
@@ -61,8 +61,8 @@
     },
     "omnihub": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json",
-      "version": "1.40",
-      "versionCode": 41,
+      "version": "1.41",
+      "versionCode": 42,
       "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
       "name": "hentai鲸鲸",
       "package": "com.omnihub"
