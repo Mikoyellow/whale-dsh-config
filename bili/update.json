@@ -1,0 +1,12 @@
+{
+  "versionCode": 2,
+  "versionName": "1.1",
+  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-bili/update.apk",
+  "sha256": "f736e9eafbcdd32feda384c7edae3875d830001329626147be5e2b04286c78e4",
+  "size": 50068,
+  "notes": "更新链路测试版（内容同 1.0，只用于验证更新）",
+  "releasedAt": "2026-11-06 14:19:26",
+  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
+  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+  "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bili/update.json"
+}
