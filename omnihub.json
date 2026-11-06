@@ -1,16 +1,16 @@
 {
-  "versionCode": 36,
-  "versionName": "1.35",
-  "url": "https://62e7c94a.r38.cpolar.top/omnihub/update.apk",
+  "versionCode": 37,
+  "versionName": "1.36",
+  "url": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
   "urls": [
-    "http://192.168.1.2:8000/OmniHub-v1.35.apk"
+    "http://192.168.1.2:8000/OmniHub-v1.36.apk"
   ],
   "size": 197083,
-  "sha256": "1570b231886dee2657eae81d7b9980dfc45c6aaa28271eaf1940a0959191a403",
-  "changelog": "v1.35（versionCode 36）\n\n1. 网络层新增通用反爬重试：请求被 302 到 /challenge 这类页面时，自动改用空 UA 再请求一次\n   - 之前这是 MangaDex 单个源里的特殊处理，现在提到 Http 层，所有源自动受益\n   - 判定依据是「最终 URL」而不是状态码（跟随重定向后挑战页是 200）\n   - 单元测试 ChallengeTest 9 项覆盖各种形态\n",
+  "sha256": "c637a7ef98a99d1990210fe896ff91921060c02bf3d99041db1fd05c0bcea043",
+  "changelog": "v1.36（versionCode 37）\n\n1. 修复禁漫加载极慢：全部域名 403 时，旧逻辑逐个等 25 秒超时，一轮 116 秒\n   - 现在：单域名 4 秒、整体预算 8 秒、探不到就负缓存 5 分钟\n   - 实测：116 秒 → 9.9 秒，同一进程内第二次 0 毫秒\n2. 禁漫探活不再修改全局 Http.userAgent（原先会顺手影响同时运行的其它源）\n3. 全源真站体检（代理出口）：13 个源中 8 个正常出数据\n",
   "mandatory": false,
-  "apk": "https://62e7c94a.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://62e7c94a.r38.cpolar.top",
+  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
+  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
