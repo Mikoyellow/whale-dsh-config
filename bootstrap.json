@@ -1,61 +1,95 @@
 {
   "base": "https://6cfe8a67.r9.vip.cpolar.cn",
   "key": "95070-301F4",
-  "updated": "2026-11-06T14:55:25+08:00",
+  "updated": "2026-11-06T15:02:07+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
       "version": "1.53",
       "versionCode": 54,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/update.apk",
+      "name": "鲸鲸 / DSH",
+      "package": "com.dsh.mobile"
     },
     "surf": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/surf/update.json",
       "version": "3.0",
       "versionCode": 20,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-surf/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-surf/update.apk",
+      "name": "鲸鲸冲浪",
+      "package": "com.yg.whalesurf"
     },
     "create": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/create/update.json",
       "version": "2.6",
       "versionCode": 17,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-create/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-create/update.apk",
+      "name": "鲸鲸创作",
+      "package": "com.yg.whale"
     },
     "clean": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/clean/update.json",
       "version": "2.2",
       "versionCode": 13,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-clean/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-clean/update.apk",
+      "name": "鲸鲸垃圾清理",
+      "package": "com.yg.clean"
     },
     "collect": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/collect/update.json",
       "version": "1.19",
       "versionCode": 20,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/info/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/info/update.apk",
+      "name": "鲸鲸收集",
+      "package": "com.yg.info"
     },
     "manage": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/manage/update.json",
       "version": "2.1",
       "versionCode": 12,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-manage/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-manage/update.apk",
+      "name": "鲸鲸管理",
+      "package": "com.yg.whalemanage"
     },
     "tavern": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json",
       "version": "3.2",
       "versionCode": 23,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-tavern/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-tavern/update.apk",
+      "name": "鲸鲸酒馆",
+      "package": "com.yg.tavern"
     },
     "omnihub": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json",
       "version": "1.39",
       "versionCode": 40,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
+      "name": "hentai鲸鲸",
+      "package": "com.omnihub"
     },
     "download": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/download/update.json",
       "version": "1.2",
       "versionCode": 3,
-      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-download/update.apk"
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-download/update.apk",
+      "name": "鲸鲸下载",
+      "package": "com.yg.whaledownload"
+    },
+    "bili": {
+      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bili/update.json",
+      "version": "1.1",
+      "versionCode": 2,
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-bili/update.apk",
+      "name": "鲸鲸B站",
+      "package": "com.yg.whalebili"
+    },
+    "mota": {
+      "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/mota/update.json",
+      "version": "1.1",
+      "versionCode": 2,
+      "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-mota/update.apk",
+      "name": "鲸鲸魔塔",
+      "package": "com.yg.whalemota"
     }
   }
 }
