@@ -1,10 +1,10 @@
 {
-  "versionCode": 55,
-  "versionName": "1.54",
+  "versionCode": 56,
+  "versionName": "1.55",
   "apk": "https://7ce8a611.r38.cpolar.top/update.apk",
-  "sha256": "2950dab29a94903d7c821e61f898f7e44fe49d8ae18b3f94c008e19c69f0590f",
+  "sha256": "f52a43636c27e0394a29ba8826f05550c61dccd010de2dc6ad58c9b2e0737005",
   "size": 5588878,
-  "notes": "v1.54：隧道地址加了 DSH 授权闸门——新隧道只有 DSH 能确认，其他 App 只认 GitHub 上已经发布的 base。① 「获取最新隧道地址」现在先看 bootstrap：有 pendingBase 且和已发布 base 不一样时，只显示「发现待确认隧道」，先探候选地址的 /health 和首页（200 或 401 才算活），通过才出现「确认并启用」按钮；不通过就把真实原因写出来，地址一律不动。② 点「确认并启用」才 POST <候选地址>/gate/approve?key=…&base=…，成功后再填地址、写最近地址、存密钥并重连一次；403 / 400 / 超时 / 非 JSON 全部照抄服务器原因，不伪造成功。DSH 不会自动确认，也不会替你点。③ 设置页新增「DSH 授权闸门」三行：当前已批准地址（带确认时间）、待确认地址（未确认，暂不生效）、以及「其他 App 要等 DSH 确认后，auto-tunnel 下一轮才发布正式 base」。④ 其他 App 没有写 gate 的入口，硬写会被 relay 用配对密钥挡成 403。⑤ 配对、二维码、更新、文件下载、诊断、手机控制、自动化都没动。",
+  "notes": "v1.55：大幅优化卡顿——前台空转轮询几乎清零。① 聊天滚动容器缓存（5 秒复用），不再每 1.5 秒全页扫描 + 强制 reflow。② 去掉「回到底部」按钮的 1.5 秒定时器，改为滚动 + 新回复时触发。③ 文件卡片下载角标改成 DOM 变化时按需装饰（2 秒节流），不再每 1.2 秒全页扫描。④ 会话切换记录、最近会话记录改为点击事件驱动 + 10 秒慢兜底。⑤ 启动兜底 600ms 设 40 次上限，之后降级为 5 秒慢重试。功能与界面完全不变，滚动、打字、消息流式输出更顺滑，也更省电。",
   "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
