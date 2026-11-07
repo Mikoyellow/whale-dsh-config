@@ -1,16 +1,16 @@
 {
-  "versionCode": 37,
-  "versionName": "1.36",
-  "url": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
+  "versionCode": 45,
+  "versionName": "1.44",
+  "url": "https://7ce8a611.r38.cpolar.top/omnihub/update.apk",
   "urls": [
-    "http://192.168.1.2:8000/OmniHub-v1.36.apk"
+    "http://192.168.1.2:8000/OmniHub-v1.37.apk"
   ],
-  "size": 197083,
-  "sha256": "c637a7ef98a99d1990210fe896ff91921060c02bf3d99041db1fd05c0bcea043",
-  "changelog": "v1.36（versionCode 37）\n\n1. 修复禁漫加载极慢：全部域名 403 时，旧逻辑逐个等 25 秒超时，一轮 116 秒\n   - 现在：单域名 4 秒、整体预算 8 秒、探不到就负缓存 5 分钟\n   - 实测：116 秒 → 9.9 秒，同一进程内第二次 0 毫秒\n2. 禁漫探活不再修改全局 Http.userAgent（原先会顺手影响同时运行的其它源）\n3. 全源真站体检（代理出口）：13 个源中 8 个正常出数据\n",
+  "size": 5428280,
+  "sha256": "1b4c6cb06c883865fd44d0f2c422d565ec9034d9558d0f366619e93089486176",
+  "changelog": "v1.44（versionCode 45）\n1. 视频播放页：进度轮询只在真正播放时运行，暂停/网页/未就绪不再每 500ms 空转。\n2. 主列表：每个源返回后不再重复全表重算标签墙/筛选/AI，统一到本轮加载结束跑一次。\n3. 阅读器：切横竖模式/退出时移除旧 ScrollView 的滚动监听，避免监听叠加与内存泄漏。\n4. 视频·每日更新：全部源失败时不写缓存，避免误推进下次刷新时间。\n5. 其余为本地性能优化，功能保持不变。",
   "mandatory": false,
-  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
-  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
+  "apk": "https://7ce8a611.r38.cpolar.top/omnihub/update.apk",
+  "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
