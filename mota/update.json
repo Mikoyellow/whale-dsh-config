@@ -1,12 +1,12 @@
 {
   "versionCode": 1,
   "versionName": "1.0",
-  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-mota/update.apk",
+  "apk": "https://7ce8a611.r38.cpolar.top/whale-mota/update.apk",
   "sha256": "34fb65dde7268def92f1432df951aa06c3e17fa9c7779ba4e06a1f26d9fa1603",
   "size": 45533,
   "notes": "首个版本：只做 h5mota 官方网页客户端。",
   "releasedAt": "2026-11-06 15:08:36",
-  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
+  "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/mota/update.json"
 }
