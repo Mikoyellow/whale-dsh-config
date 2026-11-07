@@ -1,11 +1,11 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
+  "versionCode": 2,
+  "versionName": "1.1",
   "apk": "https://7ce8a611.r38.cpolar.top/whale-mota/update.apk",
-  "sha256": "34fb65dde7268def92f1432df951aa06c3e17fa9c7779ba4e06a1f26d9fa1603",
+  "sha256": "043442085cba0485ab7dca7a3bf9198ad4e6d84af710eb2ab8f66a88aefb2800",
   "size": 45533,
-  "notes": "首个版本：只做 h5mota 官方网页客户端。",
-  "releasedAt": "2026-11-06 15:08:36",
+  "notes": "v1.1 修复：全屏悬浮菜单永远不显示的 bug；站点测速只读 8KB；Activity 销毁防崩溃。",
+  "releasedAt": "2026-11-07 14:45:16",
   "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/mota/update.json"
