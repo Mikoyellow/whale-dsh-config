@@ -1,13 +1,13 @@
 {
-  "versionCode": 44,
-  "versionName": "1.43",
+  "versionCode": 45,
+  "versionName": "1.44",
   "url": "https://7ce8a611.r38.cpolar.top/omnihub/update.apk",
   "urls": [
     "http://192.168.1.2:8000/OmniHub-v1.37.apk"
   ],
   "size": 5428280,
-  "sha256": "77fbfd67499fcb7f8e3a279425c527bfceb0f8ad116ff15bb86fdbfcc94d808e",
-  "changelog": "v1.43（versionCode 44）\n\n1. Flash 电脑 SWF 缓存改用 filesDir，不再放 cacheDir；系统清缓存不会把游戏删掉。\n2. 同一 root+path 固定缓存文件：再次点同一个游戏直接播放，不再重新下载。\n3. 缓存上限 32 个 SWF；已缓存时状态栏显示已缓存。\n4. 其余 v1.42 齿轮设置、v1.41 下载进度、视频/AI 标签不变。",
+  "sha256": "1b4c6cb06c883865fd44d0f2c422d565ec9034d9558d0f366619e93089486176",
+  "changelog": "v1.44（versionCode 45）\n1. 视频播放页：进度轮询只在真正播放时运行，暂停/网页/未就绪不再每 500ms 空转。\n2. 主列表：每个源返回后不再重复全表重算标签墙/筛选/AI，统一到本轮加载结束跑一次。\n3. 阅读器：切横竖模式/退出时移除旧 ScrollView 的滚动监听，避免监听叠加与内存泄漏。\n4. 视频·每日更新：全部源失败时不写缓存，避免误推进下次刷新时间。\n5. 其余为本地性能优化，功能保持不变。",
   "mandatory": false,
   "apk": "https://7ce8a611.r38.cpolar.top/omnihub/update.apk",
   "base": "https://7ce8a611.r38.cpolar.top",
