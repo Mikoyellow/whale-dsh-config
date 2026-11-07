@@ -1,12 +1,12 @@
 {
-  "versionCode": 20,
-  "versionName": "3.0",
-  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/whale-surf/update.apk",
-  "sha256": "62c3a7c2ee031c6181c79eb953f56e41c3ef2cc7b189473b5d59596b0e26af35",
+  "versionCode": 21,
+  "versionName": "3.1",
+  "apk": "https://7ce8a611.r38.cpolar.top/whale-surf/update.apk",
+  "sha256": "cbe37af151a0d8fe04d4b86defa95290a27760b6ecf1716e3a6a0155b04fe217",
   "size": 140241,
-  "notes": "v3.0：更新清单默认走 GitHub 主源（App 自己补 /update.json），主源不通或清单还没发布时自动切到 cpolar 镜像并在状态栏标明来源；旧隧道地址和 GitHub 网页地址自动归一；诊断「更新」一行同时测主源和镜像；浏览器下载按清单里的 apk 地址解析。",
-  "releasedAt": "2026-10-28 23:36:24",
-  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
+  "notes": "v3.1 性能优化：微博访客引导去空转轮询、原生桥定时器泄漏修复、WebView 销毁判空。",
+  "releasedAt": "2026-11-07 14:45:16",
+  "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/surf/update.json"
 }
