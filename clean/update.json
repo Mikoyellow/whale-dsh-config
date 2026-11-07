@@ -1,11 +1,11 @@
 {
-  "versionCode": 13,
-  "versionName": "2.2",
+  "versionCode": 14,
+  "versionName": "2.3",
   "apk": "https://7ce8a611.r38.cpolar.top/whale-clean/update.apk",
-  "sha256": "124f0a7c4852ea4a4ad10b9aa3432050e2f6c47ebf0c2a40cbd78900e6a3bfb3",
+  "sha256": "8a3a9373d1175ec0735f6fc691d9a1f46bc2fbaa0fefd1105e17fc044833bdb3",
   "size": 123847,
-  "notes": "v2.2：更新清单默认走 GitHub 主源（App 自己补 /update.json），主源不通或清单还没发布时自动回退 cpolar 镜像并在状态栏标出源；旧隧道地址与 GitHub 网页地址自动归一；浏览器下载/复制链接按清单里的 apk 地址解析。",
-  "releasedAt": "2026-10-28 23:30:57",
+  "notes": "v2.3 性能优化：扫描 getCanonicalPath 去重、去重改 LinkedHashSet、静止页空转短路。",
+  "releasedAt": "2026-11-07 14:45:16",
   "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/clean/update.json"
