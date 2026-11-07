@@ -1,13 +1,16 @@
 {
   "versionCode": 44,
   "versionName": "1.43",
-  "url": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
+  "url": "https://7ce8a611.r38.cpolar.top/omnihub/update.apk",
+  "urls": [
+    "http://192.168.1.2:8000/OmniHub-v1.37.apk"
+  ],
   "size": 5428280,
   "sha256": "77fbfd67499fcb7f8e3a279425c527bfceb0f8ad116ff15bb86fdbfcc94d808e",
   "changelog": "v1.43（versionCode 44）\n\n1. Flash 电脑 SWF 缓存改用 filesDir，不再放 cacheDir；系统清缓存不会把游戏删掉。\n2. 同一 root+path 固定缓存文件：再次点同一个游戏直接播放，不再重新下载。\n3. 缓存上限 32 个 SWF；已缓存时状态栏显示已缓存。\n4. 其余 v1.42 齿轮设置、v1.41 下载进度、视频/AI 标签不变。",
   "mandatory": false,
-  "apk": "https://6cfe8a67.r9.vip.cpolar.cn/omnihub/update.apk",
-  "base": "https://6cfe8a67.r9.vip.cpolar.cn",
+  "apk": "https://7ce8a611.r38.cpolar.top/omnihub/update.apk",
+  "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
