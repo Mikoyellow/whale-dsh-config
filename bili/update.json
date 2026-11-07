@@ -1,11 +1,11 @@
 {
-  "versionCode": 3,
-  "versionName": "1.2",
+  "versionCode": 4,
+  "versionName": "1.3",
   "apk": "https://7ce8a611.r38.cpolar.top/whale-bili/update.apk",
-  "sha256": "61b72b997d3d4e652b99152edc9ccc3d7cfff595dc5f55fd7d0fe398663a3f8e",
+  "sha256": "024f32a6065f124337f1c49e323ac870698d6ce0b2ad6bc01863896b95728596",
   "size": 66452,
-  "notes": "v1.2：登录/历史仍用官方网页；点视频先试原生播放（B站公开 web 接口取 durl），失败自动回网页并写明原因；藏掉「打开App / 浏览方式 / 去打开 / 下载App」遮挡，视频页再收掉网页顶部导航与相关推荐；拦下 bilibili://、intent://、market:// 跳转和 window.open。",
-  "releasedAt": "2026-11-06 15:26:47",
+  "notes": "v1.3 性能优化：视频模式轮询改事件驱动+5s 兜底、onDestroy 完整释放 WebView、Cookie 去重。",
+  "releasedAt": "2026-11-07 14:45:16",
   "base": "https://7ce8a611.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bili/update.json"
