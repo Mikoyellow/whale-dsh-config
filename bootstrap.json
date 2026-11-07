@@ -1,7 +1,7 @@
 {
   "base": "https://7ce8a611.r38.cpolar.top",
   "key": "95070-301F4",
-  "updated": "2026-11-07T14:45:25+08:00",
+  "updated": "2026-11-07T14:52:05+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -69,8 +69,8 @@
     },
     "download": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/download/update.json",
-      "version": "1.4",
-      "versionCode": 5,
+      "version": "1.5",
+      "versionCode": 6,
       "apk": "https://7ce8a611.r38.cpolar.top/whale-download/update.apk",
       "name": "鲸鲸下载",
       "package": "com.yg.whaledownload"
