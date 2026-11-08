@@ -1,12 +1,12 @@
 {
   "versionCode": 4,
   "versionName": "1.3",
-  "apk": "https://16f2b3b5.r9.vip.cpolar.cn/whale-bili/update.apk",
+  "apk": "https://368153cf.r6.cpolar.cn/whale-bili/update.apk",
   "sha256": "024f32a6065f124337f1c49e323ac870698d6ce0b2ad6bc01863896b95728596",
   "size": 66452,
   "notes": "v1.3 性能优化：视频模式轮询改事件驱动+5s 兜底、onDestroy 完整释放 WebView、Cookie 去重。",
   "releasedAt": "2026-11-07 14:45:16",
-  "base": "https://16f2b3b5.r9.vip.cpolar.cn",
+  "base": "https://368153cf.r6.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bili/update.json"
 }
