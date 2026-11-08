@@ -1,16 +1,16 @@
 {
-  "versionCode": 45,
-  "versionName": "1.44",
-  "url": "https://67f579eb.r38.cpolar.top/omnihub/update.apk",
+  "versionCode": 39,
+  "versionName": "1.38",
+  "url": "https://34059d96.r9.vip.cpolar.cn/omnihub/update.apk",
   "urls": [
-    "http://192.168.1.2:8000/OmniHub-v1.37.apk"
+    "http://192.168.1.2:8000/OmniHub-v1.38.apk"
   ],
   "size": 5428280,
-  "sha256": "1b4c6cb06c883865fd44d0f2c422d565ec9034d9558d0f366619e93089486176",
-  "changelog": "v1.44（versionCode 45）\n1. 视频播放页：进度轮询只在真正播放时运行，暂停/网页/未就绪不再每 500ms 空转。\n2. 主列表：每个源返回后不再重复全表重算标签墙/筛选/AI，统一到本轮加载结束跑一次。\n3. 阅读器：切横竖模式/退出时移除旧 ScrollView 的滚动监听，避免监听叠加与内存泄漏。\n4. 视频·每日更新：全部源失败时不写缓存，避免误推进下次刷新时间。\n5. 其余为本地性能优化，功能保持不变。",
+  "sha256": "eb57c5c65e414879e45a2420cb22e4e0e3e9b7bfb58deabee4020fcedb79d69c",
+  "changelog": "v1.38（versionCode 39）\n\n1. 死主机判定改为「连续两次失败」才生效：单次超时会误伤慢但可用的源\n   - 实测：不可达源首次 16.7 秒（2×超时），之后 0 毫秒\n   - 实测：可用的 Eporner 未被误判，1.1 秒正常返回 24 条\n2. 单元测试补齐连续失败计数、不同主机隔离等 5 项\n",
   "mandatory": false,
-  "apk": "https://67f579eb.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://67f579eb.r38.cpolar.top",
+  "apk": "https://34059d96.r9.vip.cpolar.cn/omnihub/update.apk",
+  "base": "https://34059d96.r9.vip.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
