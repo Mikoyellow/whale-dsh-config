@@ -1,11 +1,11 @@
 {
-  "versionCode": 56,
-  "versionName": "1.55",
-  "apk": "https://7ce8a611.r38.cpolar.top/update.apk",
-  "sha256": "f52a43636c27e0394a29ba8826f05550c61dccd010de2dc6ad58c9b2e0737005",
+  "versionCode": 57,
+  "versionName": "1.56",
+  "apk": "https://1d0e38f3.r38.cpolar.top/update.apk",
+  "sha256": "6d1b135022cfd0d51f72880d2b3d5fed31eca18a7aa4402a96434959d8d7748c",
   "size": 5588878,
   "notes": "v1.55：大幅优化卡顿——前台空转轮询几乎清零。① 聊天滚动容器缓存（5 秒复用），不再每 1.5 秒全页扫描 + 强制 reflow。② 去掉「回到底部」按钮的 1.5 秒定时器，改为滚动 + 新回复时触发。③ 文件卡片下载角标改成 DOM 变化时按需装饰（2 秒节流），不再每 1.2 秒全页扫描。④ 会话切换记录、最近会话记录改为点击事件驱动 + 10 秒慢兜底。⑤ 启动兜底 600ms 设 40 次上限，之后降级为 5 秒慢重试。功能与界面完全不变，滚动、打字、消息流式输出更顺滑，也更省电。",
-  "base": "https://7ce8a611.r38.cpolar.top",
+  "base": "https://1d0e38f3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
 }
