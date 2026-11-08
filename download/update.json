@@ -1,12 +1,12 @@
 {
   "versionCode": 6,
   "versionName": "1.5",
-  "apk": "https://16f2b3b5.r9.vip.cpolar.cn/whale-download/update.apk",
+  "apk": "https://1d05abbc.r38.cpolar.top/whale-download/update.apk",
   "sha256": "69c823755dc53a7ba6a78fab73cb83e1c1f2ee04f81beffb57302d1464258b13",
   "size": 107280,
   "notes": "v1.5 修复：应用中心刷新检测不到最新版本——Contents API 优先、缩短超时、手动刷新强制绕过缓存。",
   "releasedAt": "2026-11-07 14:52:00",
-  "base": "https://16f2b3b5.r9.vip.cpolar.cn",
+  "base": "https://1d05abbc.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/download/update.json"
 }
