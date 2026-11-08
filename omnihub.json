@@ -1,7 +1,7 @@
 {
   "versionCode": 45,
   "versionName": "1.44",
-  "url": "https://1d0e38f3.r38.cpolar.top/omnihub/update.apk",
+  "url": "https://368153cf.r6.cpolar.cn/omnihub/update.apk",
   "urls": [
     "http://192.168.1.2:8000/OmniHub-v1.38.apk"
   ],
@@ -9,8 +9,8 @@
   "sha256": "1b4c6cb06c883865fd44d0f2c422d565ec9034d9558d0f366619e93089486176",
   "changelog": "v1.44（versionCode 45）\n\n包含 Flash/Ruffle、电脑合集分类、虚拟手柄、SWF 持久缓存、视频每日更新、AI 标签筛选、顶栏齿轮设置入口。",
   "mandatory": false,
-  "apk": "https://1d0e38f3.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://1d0e38f3.r38.cpolar.top",
+  "apk": "https://368153cf.r6.cpolar.cn/omnihub/update.apk",
+  "base": "https://368153cf.r6.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
