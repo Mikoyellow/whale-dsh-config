@@ -1,12 +1,12 @@
 {
   "versionCode": 13,
   "versionName": "2.2",
-  "apk": "https://34059d96.r9.vip.cpolar.cn/whale-manage/update.apk",
+  "apk": "https://1d0e38f3.r38.cpolar.top/whale-manage/update.apk",
   "sha256": "4ca75ae40407c834f1e4c142f42b62671a5ecb2681657c6a08b743386c3fee55",
   "size": 115841,
   "notes": "v2.2 性能优化：账本汇总单遍累加、聊天历史限长、滚动合帧、扫描去 getCanonicalPath。",
   "releasedAt": "2026-11-07 14:45:16",
-  "base": "https://34059d96.r9.vip.cpolar.cn",
+  "base": "https://1d0e38f3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/manage/update.json"
 }
