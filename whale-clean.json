@@ -1,12 +1,12 @@
 {
   "versionCode": 14,
   "versionName": "2.3",
-  "apk": "https://7ce8a611.r38.cpolar.top/whale-clean/update.apk",
+  "apk": "https://1d0e38f3.r38.cpolar.top/whale-clean/update.apk",
   "sha256": "8a3a9373d1175ec0735f6fc691d9a1f46bc2fbaa0fefd1105e17fc044833bdb3",
   "size": 123847,
   "notes": "v2.3 性能优化：扫描 getCanonicalPath 去重、去重改 LinkedHashSet、静止页空转短路。",
   "releasedAt": "2026-11-07 14:45:16",
-  "base": "https://7ce8a611.r38.cpolar.top",
+  "base": "https://1d0e38f3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/clean/update.json"
 }
