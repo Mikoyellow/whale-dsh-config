@@ -1,12 +1,12 @@
 {
   "versionCode": 18,
   "versionName": "2.7",
-  "apk": "https://7ce8a611.r38.cpolar.top/whale-create/update.apk",
+  "apk": "https://1d0e38f3.r38.cpolar.top/whale-create/update.apk",
   "sha256": "7aece7af681d9bd045c65dac330a1487dade4132e8db69963b5bcc4560a2badb",
   "size": 99153,
   "notes": "v2.7 性能优化：作品缩略图本地缓存、作品搜索 160ms 防抖、删除作品清理缓存。",
   "releasedAt": "2026-11-07 14:45:16",
-  "base": "https://7ce8a611.r38.cpolar.top",
+  "base": "https://1d0e38f3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/create/update.json"
 }
