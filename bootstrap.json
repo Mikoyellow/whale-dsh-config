@@ -1,7 +1,7 @@
 {
   "base": "https://1d0e38f3.r38.cpolar.top",
   "key": "95070-301F4",
-  "updated": "2026-11-09T06:34:36+08:00",
+  "updated": "2026-11-09T06:34:38+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
