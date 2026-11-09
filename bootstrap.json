@@ -1,12 +1,12 @@
 {
   "base": "https://1d0e38f3.r38.cpolar.top",
   "key": "95070-301F4",
-  "updated": "2026-11-09T08:33:17+08:00",
+  "updated": "2026-11-09T08:41:57+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
-      "version": "1.57",
-      "versionCode": 58,
+      "version": "1.58",
+      "versionCode": 59,
       "apk": "https://1d0e38f3.r38.cpolar.top/update.apk",
       "name": "鲸鲸 / DSH",
       "package": "com.dsh.mobile"
