@@ -1,10 +1,10 @@
 {
-  "versionCode": 59,
-  "versionName": "1.58",
+  "versionCode": 60,
+  "versionName": "1.59",
   "apk": "https://1d0e38f3.r38.cpolar.top/update.apk",
-  "sha256": "898b83d083053fb58907f6815ef519f4ede6e505a6a8bc8a644513cf2805d6b6",
+  "sha256": "7c5d1fa55c57f6ee1c26ad46c645a0a1d1877e9f7f5ca066c34a7d6a5212095b",
   "size": 5592974,
-  "notes": "v1.58：修复会话标题在「有名字/未命名」之间跳。占位标题（新会话/未命名/会话/正在…）不再被当成真实标题，也不会覆盖本地已缓存的真名；DOM 短暂空白时回退到上次缓存标题，等真名出来再就地更新。图片问题未改代码（默认模型不支持图片输入）。",
+  "notes": "v1.59：会话标题缓存优先，根治「有名字/未命名」跳。① sessionIndex 改成先铺 localStorage 缓存，DOM 只用来发现新 key 和捕获新出现的真实标题；② 占位/空标题不再覆盖缓存真名；③ 列表不再 filter 掉空标题行，空标题先显示「会话」，真名到了原地刷新，不整表重建。",
   "base": "https://1d0e38f3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
