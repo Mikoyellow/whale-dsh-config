@@ -1,10 +1,10 @@
 {
-  "versionCode": 58,
-  "versionName": "1.57",
+  "versionCode": 59,
+  "versionName": "1.58",
   "apk": "https://1d0e38f3.r38.cpolar.top/update.apk",
-  "sha256": "60ec3a45d4b9c1c7fd069afc1bdc270bab5eb8ad4350f34bd1949ab07a438f67",
+  "sha256": "898b83d083053fb58907f6815ef519f4ede6e505a6a8bc8a644513cf2805d6b6",
   "size": 5592974,
-  "notes": "v1.57：手机端会话列表/内容提速。① 会话行 DOM 扫描改事件驱动：去掉 watchSelection / recentBump 的 10 秒 setInterval 全页扫，改 MutationObserver 监听会话行增删/选中态变化 + 点击触发，只在 DOM 实际变化时重算 rows()/rowTitleOf()/renderSessionListings()。② 会话标题本地缓存：{key,title,sel} 落盘 localStorage 键 dsh.mobile.sessionIndex，进页面先渲染缓存，再后台 diff 更新；标题不变不整表重建，标题/选中态变了只就地刷该行。③ 首屏/增量：会话面板一次最多渲染 120 行，超出折叠显示「还有 N 个」+ 折叠数。不改配对/更新/下载/二维码/手机控制/自动化，不碰 relay 与桌面端。",
+  "notes": "v1.58：修复会话标题在「有名字/未命名」之间跳。占位标题（新会话/未命名/会话/正在…）不再被当成真实标题，也不会覆盖本地已缓存的真名；DOM 短暂空白时回退到上次缓存标题，等真名出来再就地更新。图片问题未改代码（默认模型不支持图片输入）。",
   "base": "https://1d0e38f3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
