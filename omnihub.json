@@ -1,16 +1,16 @@
 {
-  "versionCode": 45,
-  "versionName": "1.44",
-  "url": "https://1d0e38f3.r38.cpolar.top/omnihub/update.apk",
+  "versionCode": 41,
+  "versionName": "1.40",
+  "url": "https://45a06bf5.r38.cpolar.top/omnihub/update.apk",
   "urls": [
-    "http://192.168.1.2:8000/OmniHub-v1.38.apk"
+    "http://192.168.1.2:8000/OmniHub-v1.40.apk"
   ],
   "size": 5428280,
-  "sha256": "1b4c6cb06c883865fd44d0f2c422d565ec9034d9558d0f366619e93089486176",
-  "changelog": "v1.44（versionCode 45）\n\n包含 Flash/Ruffle、电脑合集分类、虚拟手柄、SWF 持久缓存、视频每日更新、AI 标签筛选、顶栏齿轮设置入口。",
+  "sha256": "17f17fe8df82a3abba342cb3262df17b632997a318be9f2b5ee9e3d07df4e8a1",
+  "changelog": "v1.40（versionCode 41）\n\n1. 今日推送覆盖面提升：nhentai 在日期筛选下补日期数量 8 → 12 条（预算 4s → 5s）\n   - 实测：普通浏览 8 条 / 1.2s；今日筛选 12 条 / 1.5s\n   - 原因：nhentai 列表接口不带日期，只能逐条查详情，之前上限固定 8 条\n2. 巡检说明：AO3 站点维护中（HTTP 418）；禁漫所有域名均不可用（两个返回 200 的是占位页）\n",
   "mandatory": false,
-  "apk": "https://1d0e38f3.r38.cpolar.top/omnihub/update.apk",
-  "base": "https://1d0e38f3.r38.cpolar.top",
+  "apk": "https://45a06bf5.r38.cpolar.top/omnihub/update.apk",
+  "base": "https://45a06bf5.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
