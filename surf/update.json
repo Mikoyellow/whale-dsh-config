@@ -1,12 +1,12 @@
 {
   "versionCode": 21,
   "versionName": "3.1",
-  "apk": "https://1d0e38f3.r38.cpolar.top/whale-surf/update.apk",
+  "apk": "https://45a06bf5.r38.cpolar.top/whale-surf/update.apk",
   "sha256": "cbe37af151a0d8fe04d4b86defa95290a27760b6ecf1716e3a6a0155b04fe217",
   "size": 140241,
   "notes": "v3.1 性能优化：微博访客引导去空转轮询、原生桥定时器泄漏修复、WebView 销毁判空。",
   "releasedAt": "2026-11-07 14:45:16",
-  "base": "https://1d0e38f3.r38.cpolar.top",
+  "base": "https://45a06bf5.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/surf/update.json"
 }
