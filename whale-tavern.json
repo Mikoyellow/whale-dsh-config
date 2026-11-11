@@ -1,12 +1,12 @@
 {
   "versionCode": 24,
   "versionName": "3.3",
-  "apk": "https://5ebe20e6.r9.vip.cpolar.cn/whale-tavern/update.apk",
+  "apk": "https://4c91b16a.r38.cpolar.top/whale-tavern/update.apk",
   "sha256": "8af1bdca55a854736e997e5234ab2e48b51ec6b8a3e97c660c914058b52ca8aa",
   "size": 168784,
   "notes": "v3.3 性能优化：修 compressImage 死分支、更新检查缓存包名读取、输入监听作用域限定。",
   "releasedAt": "2026-11-07 14:45:16",
-  "base": "https://5ebe20e6.r9.vip.cpolar.cn",
+  "base": "https://4c91b16a.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/tavern/update.json"
 }
