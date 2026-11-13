@@ -1,10 +1,10 @@
 {
-  "versionCode": 60,
-  "versionName": "1.59",
+  "versionCode": 61,
+  "versionName": "1.60",
   "apk": "https://3cdc7e60.r9.vip.cpolar.cn/update.apk",
-  "sha256": "7c5d1fa55c57f6ee1c26ad46c645a0a1d1877e9f7f5ca066c34a7d6a5212095b",
-  "size": 5592974,
-  "notes": "v1.59：会话标题缓存优先，根治「有名字/未命名」跳。① sessionIndex 改成先铺 localStorage 缓存，DOM 只用来发现新 key 和捕获新出现的真实标题；② 占位/空标题不再覆盖缓存真名；③ 列表不再 filter 掉空标题行，空标题先显示「会话」，真名到了原地刷新，不整表重建。",
+  "sha256": "b7f40d52d2458b1ecefe97e59a4cc7e4e8fd4506bd29d67f148c7af0f7b8f8fd",
+  "size": 5597070,
+  "notes": "v1.60：新增「精简会话」模式（速度至上）。顶栏 rail 多一个「精简」开关，落盘 localStorage 键 dsh.mobile.liteMode，关闭即回完整模式。精简模式只做三件事：① 极简会话列表——标题只用 dsh.mobile.sessionIndex 本地缓存渲染，不 rows() 全页扫、不跑置顶/搜索/折叠；② 发消息——复用现有输入框 + 发送按钮路径；③ 收消息——只读消息流文本块，不改 DOM。精简模式下停掉文件卡下载角标、后台通知、会话搜索、工具页、自动化、切换遮罩与历史加载等全部非必要渲染，且不允许 setInterval 全页扫 / getComputedStyle 批量 / querySelectorAll('*') 全页遍历。不改配对/更新/下载接口，不碰 relay 与桌面端。",
   "base": "https://3cdc7e60.r9.vip.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
