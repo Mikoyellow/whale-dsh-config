@@ -1,10 +1,10 @@
 {
-  "versionCode": 61,
-  "versionName": "1.60",
+  "versionCode": 62,
+  "versionName": "1.61",
   "apk": "https://3cdc7e60.r9.vip.cpolar.cn/update.apk",
-  "sha256": "b7f40d52d2458b1ecefe97e59a4cc7e4e8fd4506bd29d67f148c7af0f7b8f8fd",
+  "sha256": "58cce6b6316e5088c7b8aa0c8c5933fc67d3d595930c65d673d73f2f33c13447",
   "size": 5597070,
-  "notes": "v1.60：新增「精简会话」模式（速度至上）。顶栏 rail 多一个「精简」开关，落盘 localStorage 键 dsh.mobile.liteMode，关闭即回完整模式。精简模式只做三件事：① 极简会话列表——标题只用 dsh.mobile.sessionIndex 本地缓存渲染，不 rows() 全页扫、不跑置顶/搜索/折叠；② 发消息——复用现有输入框 + 发送按钮路径；③ 收消息——只读消息流文本块，不改 DOM。精简模式下停掉文件卡下载角标、后台通知、会话搜索、工具页、自动化、切换遮罩与历史加载等全部非必要渲染，且不允许 setInterval 全页扫 / getComputedStyle 批量 / querySelectorAll('*') 全页遍历。不改配对/更新/下载接口，不碰 relay 与桌面端。",
+  "notes": "v1.61：修复精简模式点会话没反应。liteFindRow 之前只按 data-row-key 查，旧缓存里 title:xxx 形式的 key 永远匹配不到；现在改为先 attribute 精确查，失败再一次性遍历会话行按 rowKeyOf 匹配，并先确保侧栏展开再点。",
   "base": "https://3cdc7e60.r9.vip.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
