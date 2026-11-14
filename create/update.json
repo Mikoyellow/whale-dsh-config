@@ -1,11 +1,11 @@
 {
-  "versionCode": 18,
-  "versionName": "2.7",
+  "versionCode": 19,
+  "versionName": "2.8",
   "apk": "https://616acdc3.r38.cpolar.top/whale-create/update.apk",
-  "sha256": "7aece7af681d9bd045c65dac330a1487dade4132e8db69963b5bcc4560a2badb",
-  "size": 99153,
-  "notes": "v2.7 性能优化：作品缩略图本地缓存、作品搜索 160ms 防抖、删除作品清理缓存。",
-  "releasedAt": "2026-11-07 14:45:16",
+  "sha256": "2e7662f3d5f1f19a919f0a910687c551f726d6b7fc299edf13ce55a41f7e0d67",
+  "size": 103249,
+  "notes": "v2.8：接入本机 ComfyUI（全参数可调 / 每步进度 / 取消 / 解析复现 / 帮写提示词 / 打开完整界面），云端 API 用法不变。",
+  "releasedAt": "2026-11-15 05:47:14",
   "base": "https://616acdc3.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/create/update.json"
