@@ -1,7 +1,7 @@
 {
   "versionCode": 46,
   "versionName": "1.45",
-  "url": "https://3cdc7e60.r9.vip.cpolar.cn/omnihub/update.apk",
+  "url": "https://46c60e45.r38.cpolar.top/omnihub/update.apk",
   "urls": [
     "https://3cdc7e60.r9.vip.cpolar.cn/omnihub/update.apk"
   ],
@@ -9,8 +9,8 @@
   "sha256": "7f34715f60fb24e272bc09059a5e9d7930322ea728402fe5f9b73be2adc43684",
   "changelog": "v1.45（versionCode 46）\n\n1. 详情/预览页新增缩略图横带：一次展示该作品全部页缩略图，点哪张直接跳到那页，不再只能一页页翻。\n2. 缩略图复用各源图片直链，按可见窗口懒加载；已缓存的正文图直接降采样复用；远离窗口自动释放位图。\n3. 当前阅读页高亮，横带自动滚到该页；从阅读器回来高亮跟着进度走。\n4. 拿不到直链的源（Pornhub/Iwara 视频）不显示缩略图带，显示「视频无分页」。\n5. 缩略图加载失败静默跳过，不影响正文；只改 UI/缓存，不动各源解析逻辑。",
   "mandatory": false,
-  "apk": "https://3cdc7e60.r9.vip.cpolar.cn/omnihub/update.apk",
-  "base": "https://3cdc7e60.r9.vip.cpolar.cn",
+  "apk": "https://46c60e45.r38.cpolar.top/omnihub/update.apk",
+  "base": "https://46c60e45.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
