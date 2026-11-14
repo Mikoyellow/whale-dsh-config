@@ -1,7 +1,7 @@
 {
   "base": "https://616acdc3.r38.cpolar.top",
   "key": "95070-301F4",
-  "updated": "2026-11-15T05:52:18+08:00",
+  "updated": "2026-11-15T06:17:30+08:00",
   "apps": {
     "dsh": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -22,7 +22,7 @@
     "create": {
       "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/create/update.json",
       "version": "2.8",
-      "versionCode": 19,
+      "versionCode": 20,
       "apk": "https://616acdc3.r38.cpolar.top/whale-create/update.apk",
       "name": "鲸鲸创作",
       "package": "com.yg.whale"
