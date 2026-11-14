@@ -1,11 +1,11 @@
 {
-  "versionCode": 60,
-  "versionName": "1.59",
-  "apk": "https://3cdc7e60.r9.vip.cpolar.cn/update.apk",
-  "sha256": "7c5d1fa55c57f6ee1c26ad46c645a0a1d1877e9f7f5ca066c34a7d6a5212095b",
-  "size": 5592974,
-  "notes": "v1.59：会话标题缓存优先，根治「有名字/未命名」跳。① sessionIndex 改成先铺 localStorage 缓存，DOM 只用来发现新 key 和捕获新出现的真实标题；② 占位/空标题不再覆盖缓存真名；③ 列表不再 filter 掉空标题行，空标题先显示「会话」，真名到了原地刷新，不整表重建。",
-  "base": "https://3cdc7e60.r9.vip.cpolar.cn",
+  "versionCode": 63,
+  "versionName": "1.62",
+  "apk": "https://46c60e45.r38.cpolar.top/update.apk",
+  "sha256": "da18f82f4999c9cefb7eab67e3f5e65730244ed1f60bb8129c9d1dd40d27dacf",
+  "size": 5597070,
+  "notes": "v1.62：精简模式点会话进不去，这次是真修。查明桌面 DSH 侧栏的会话列表是「宽栏才挂载」——侧栏收起后会话行会被 React 卸载，展开后要等重渲染；旧实现 toggle 侧栏后立刻找行，永远找不到。现在打开会话先关精简浮层、展开侧栏，再低频轮询等行真正挂载，复用完整模式验证过的 jumpToSession 点开；同时修复 title:xxx 旧缓存 key 的标题兜底（之前 rowKeyOf 对带 data-row-key 的行永远不等于 title:xxx，等于白比）。",
+  "base": "https://46c60e45.r38.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
 }
