@@ -1,12 +1,12 @@
 {
   "versionCode": 20,
   "versionName": "2.8",
-  "apk": "https://717874e1.r6.cpolar.cn/whale-create/update.apk",
+  "apk": "https://17dc4b4f.r74.cpolar.top/whale-create/update.apk",
   "sha256": "fad1c703b2cf5965efd888ae00de9174df31996f2710d41e58dc0bb5a1d237c8",
   "size": 107345,
   "notes": "v2.8：接入本机 ComfyUI（全参数可调 / 每步进度 / 取消 / 解析复现 / 帮写提示词 / 打开完整界面），云端 API 用法不变。",
   "releasedAt": "2026-11-15 06:17:25",
-  "base": "https://717874e1.r6.cpolar.cn",
+  "base": "https://17dc4b4f.r74.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/create/update.json"
 }
