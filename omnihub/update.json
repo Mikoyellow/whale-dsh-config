@@ -1,16 +1,16 @@
 {
-  "versionCode": 46,
-  "versionName": "1.45",
-  "url": "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
-  "urls": [
-    "https://3cdc7e60.r9.vip.cpolar.cn/omnihub/update.apk"
-  ],
-  "size": 5432376,
-  "sha256": "7f34715f60fb24e272bc09059a5e9d7930322ea728402fe5f9b73be2adc43684",
-  "changelog": "v1.45（versionCode 46）\n\n1. 详情/预览页新增缩略图横带：一次展示该作品全部页缩略图，点哪张直接跳到那页，不再只能一页页翻。\n2. 缩略图复用各源图片直链，按可见窗口懒加载；已缓存的正文图直接降采样复用；远离窗口自动释放位图。\n3. 当前阅读页高亮，横带自动滚到该页；从阅读器回来高亮跟着进度走。\n4. 拿不到直链的源（Pornhub/Iwara 视频）不显示缩略图带，显示「视频无分页」。\n5. 缩略图加载失败静默跳过，不影响正文；只改 UI/缓存，不动各源解析逻辑。",
-  "mandatory": false,
-  "apk": "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
-  "base": "https://1ffce213.r74.cpolar.top",
-  "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
-  "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
+    "versionCode":  47,
+    "versionName":  "1.46",
+    "url":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
+    "urls":  [
+                 "https://1ffce213.r74.cpolar.top/omnihub/update.apk"
+             ],
+    "size":  5448760,
+    "sha256":  "fb20afb73bfc904b81bede4cb199ff32ca1130e5afdd7a60832e38be3ff6cddd",
+    "changelog":  "v1.46（versionCode 47）\n\n1. 新增 X（Twitter）源：按作者抓视频；未登录也能翻作者历史（匿名 guest + GraphQL cursor，实测 8 页 132 条）。\n2. 新增 X 登录入口：内嵌 WebView 登录；读不到 httpOnly cookie 时自动改走「页面内同源请求」通道，登录照样生效。\n3. 新增 X 作者页：关注 / 分组 / 改名 / 移除，点作者回列表看他的全部视频。语义：作者分组只放作者，收藏分类只放作品。\n4. 视频详情页补「⤓ 下载」按钮（复用既有下载引擎单文件落盘）；点作者名可回该作者的视频列表。\n5. Flash 游戏合集：分类行和每个游戏行都加了图标（色块 + 首字，纯代码绘制，不依赖图片也不联网）。\n6. 设置页新增「X / Twitter 会话」区，可查看登录状态与所用通道。",
+    "mandatory":  false,
+    "apk":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
+    "base":  "https://1ffce213.r74.cpolar.top",
+    "bootstrap":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
+    "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
