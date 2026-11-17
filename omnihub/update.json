@@ -1,13 +1,13 @@
 {
-    "versionCode":  47,
-    "versionName":  "1.46",
+    "versionCode":  48,
+    "versionName":  "1.47",
     "url":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
     "urls":  [
                  "https://1ffce213.r74.cpolar.top/omnihub/update.apk"
              ],
-    "size":  5448760,
-    "sha256":  "fb20afb73bfc904b81bede4cb199ff32ca1130e5afdd7a60832e38be3ff6cddd",
-    "changelog":  "v1.46（versionCode 47）\n\n1. 新增 X（Twitter）源：按作者抓视频；未登录也能翻作者历史（匿名 guest + GraphQL cursor，实测 8 页 132 条）。\n2. 新增 X 登录入口：内嵌 WebView 登录；读不到 httpOnly cookie 时自动改走「页面内同源请求」通道，登录照样生效。\n3. 新增 X 作者页：关注 / 分组 / 改名 / 移除，点作者回列表看他的全部视频。语义：作者分组只放作者，收藏分类只放作品。\n4. 视频详情页补「⤓ 下载」按钮（复用既有下载引擎单文件落盘）；点作者名可回该作者的视频列表。\n5. Flash 游戏合集：分类行和每个游戏行都加了图标（色块 + 首字，纯代码绘制，不依赖图片也不联网）。\n6. 设置页新增「X / Twitter 会话」区，可查看登录状态与所用通道。",
+    "size":  5452856,
+    "sha256":  "f02c4757c6d881b5112adf720fe315e6fb4f322ad8557bfa30ab597cd0c2783e",
+    "changelog":  "v1.47（versionCode 48）\n\n1. Flash 游戏图标换成真实游戏截图：直接从 D:\\flash-games\\icons 取封面（新建 icons-index.json，把 4635 个 swf 映射到对应截图），没截图的才回退成首字色块。\n2. 修「点开 X 不通」：一个作者都没关注时，点 X 直接跳到「X 作者」页引导添加；已关注作者时按作者聚合第一页，不再是一片空白。\n3. 顺带修 relay 的老毛病：清单里已经写绝对地址时不再被改写成相对路径（原来硬编码比对早就换掉的旧域名，导致兜底线路拿到相对 url 下不动）。\n4. 其余同 v1.46：X 源、X 登录、X 作者页、视频下载按钮。",
     "mandatory":  false,
     "apk":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
     "base":  "https://1ffce213.r74.cpolar.top",
