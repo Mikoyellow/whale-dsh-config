@@ -1,11 +1,11 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
+  "versionCode": 3,
+  "versionName": "1.2",
   "apk": "https://17dc4b4f.r74.cpolar.top/whale-watch/update.apk",
-  "sha256": "6de825db2c6f3f81b4d2eb6695f7325cf337d312256b19814307ff36e786b4d1",
+  "sha256": "7dce72601532cdfcc93419a8892e61d78c4e96d98652c6b67e16b3d8868fb486",
   "size": 25363,
-  "notes": "v1.1：接入两个苹果CMS 免费源（电影/电视剧/动漫/综艺/纪录片，每类 20 条，真实播放地址），点集数直接播。",
-  "releasedAt": "2026-11-18 05:31:44",
+  "notes": "v1.2：拉多页按类型分桶，电影/电视剧/动漫/综艺/纪录片各 20 条（片库缓存 12 小时）。",
+  "releasedAt": "2026-11-18 05:35:00",
   "base": "https://17dc4b4f.r74.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/watch/update.json"
