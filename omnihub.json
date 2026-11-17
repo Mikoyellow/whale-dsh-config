@@ -1,13 +1,13 @@
 {
-  "versionCode": 46,
-  "versionName": "1.45",
+  "versionCode": 49,
+  "versionName": "1.48",
   "url": "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
   "urls": [
-    "https://3cdc7e60.r9.vip.cpolar.cn/omnihub/update.apk"
+    "https://1ffce213.r74.cpolar.top/omnihub/update.apk"
   ],
-  "size": 5432376,
-  "sha256": "7f34715f60fb24e272bc09059a5e9d7930322ea728402fe5f9b73be2adc43684",
-  "changelog": "v1.45（versionCode 46）\n\n1. 详情/预览页新增缩略图横带：一次展示该作品全部页缩略图，点哪张直接跳到那页，不再只能一页页翻。\n2. 缩略图复用各源图片直链，按可见窗口懒加载；已缓存的正文图直接降采样复用；远离窗口自动释放位图。\n3. 当前阅读页高亮，横带自动滚到该页；从阅读器回来高亮跟着进度走。\n4. 拿不到直链的源（Pornhub/Iwara 视频）不显示缩略图带，显示「视频无分页」。\n5. 缩略图加载失败静默跳过，不影响正文；只改 UI/缓存，不动各源解析逻辑。",
+  "size": 5452856,
+  "sha256": "a730ddea2d13ae49d986f34b47a6cc839f7a6271eb546122d7a9a8995ba792fe",
+  "changelog": "v1.48（versionCode 49）\n\n1. Flash 游戏图标改成真实游戏截图：直接取 D:\\flash-games\\icons 的封面（icons-index.json 把 4635 个 swf 映射到截图），没有截图的才回退首字色块。\n2. 修「点开 X 不通」：没关注作者时点 X 直接跳「X 作者」页；已关注则按作者聚合第一页。\n3. 列表为空时把源自己的原因显示出来（例如「X：还没关注任何 X 作者」），不再只显示「已全部加载」。\n4. relay 清单不再把绝对地址改写成相对路径（原硬编码比对已废弃的旧域名）。\n5. 其余同 v1.46/v1.47：X 源、登录、作者页、视频下载、分类图标。",
   "mandatory": false,
   "apk": "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
   "base": "https://1ffce213.r74.cpolar.top",
