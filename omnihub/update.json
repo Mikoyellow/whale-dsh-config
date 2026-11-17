@@ -1,13 +1,13 @@
 {
-    "versionCode":  48,
-    "versionName":  "1.47",
+    "versionCode":  49,
+    "versionName":  "1.48",
     "url":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
     "urls":  [
                  "https://1ffce213.r74.cpolar.top/omnihub/update.apk"
              ],
     "size":  5452856,
-    "sha256":  "f02c4757c6d881b5112adf720fe315e6fb4f322ad8557bfa30ab597cd0c2783e",
-    "changelog":  "v1.47（versionCode 48）\n\n1. Flash 游戏图标换成真实游戏截图：直接从 D:\\flash-games\\icons 取封面（新建 icons-index.json，把 4635 个 swf 映射到对应截图），没截图的才回退成首字色块。\n2. 修「点开 X 不通」：一个作者都没关注时，点 X 直接跳到「X 作者」页引导添加；已关注作者时按作者聚合第一页，不再是一片空白。\n3. 顺带修 relay 的老毛病：清单里已经写绝对地址时不再被改写成相对路径（原来硬编码比对早就换掉的旧域名，导致兜底线路拿到相对 url 下不动）。\n4. 其余同 v1.46：X 源、X 登录、X 作者页、视频下载按钮。",
+    "sha256":  "a730ddea2d13ae49d986f34b47a6cc839f7a6271eb546122d7a9a8995ba792fe",
+    "changelog":  "v1.48（versionCode 49）\n\n1. Flash 游戏图标改成真实游戏截图：直接取 D:\\flash-games\\icons 的封面（icons-index.json 把 4635 个 swf 映射到截图），没有截图的才回退首字色块。\n2. 修「点开 X 不通」：没关注作者时点 X 直接跳「X 作者」页；已关注则按作者聚合第一页。\n3. 列表为空时把源自己的原因显示出来（例如「X：还没关注任何 X 作者」），不再只显示「已全部加载」。\n4. relay 清单不再把绝对地址改写成相对路径（原硬编码比对已废弃的旧域名）。\n5. 其余同 v1.46/v1.47：X 源、登录、作者页、视频下载、分类图标。",
     "mandatory":  false,
     "apk":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
     "base":  "https://1ffce213.r74.cpolar.top",
