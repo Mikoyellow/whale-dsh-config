@@ -1,12 +1,12 @@
 {
   "versionCode": 1,
   "versionName": "1.0",
-  "apk": "https://1ffce213.r74.cpolar.top/whale-watch/update.apk",
+  "apk": "https://717874e1.r6.cpolar.cn/whale-watch/update.apk",
   "sha256": "8090ac5b245009ec1eac505fa9c68a1bc1161ad4a10dad3da6ae75f6c4df449b",
   "size": 25363,
   "notes": "v1.0：多源聚合搜索（内置源 + 自带模板源）、详情、收藏（可打标签）、历史、源管理。",
   "releasedAt": "2026-11-18 05:14:07",
-  "base": "https://1ffce213.r74.cpolar.top",
+  "base": "https://717874e1.r6.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/watch/update.json"
 }
