@@ -1,7 +1,7 @@
 {
     "base":  "https://1ffce213.r74.cpolar.top",
     "key":  "95070-301F4",
-    "updated":  "2026-11-18T04:38:31+08:00",
+    "updated":  "2026-11-18T04:52:43+08:00",
     "apps":  {
                  "dsh":  {
                              "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json",
@@ -61,8 +61,8 @@
                             },
                  "omnihub":  {
                                  "manifest":  "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json",
-                                 "version":  "1.46",
-                                 "versionCode":  47,
+                                 "version":  "1.47",
+                                 "versionCode":  48,
                                  "apk":  "https://1ffce213.r74.cpolar.top/omnihub/update.apk",
                                  "name":  "hentai鲸鲸",
                                  "package":  "com.omnihub"
