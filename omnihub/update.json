@@ -1,16 +1,16 @@
 {
   "versionCode": 49,
   "versionName": "1.48",
-  "url": "https://29551daa.r74.cpolar.top/omnihub/update.apk",
+  "url": "https://2f50b9a5.r6.cpolar.cn/omnihub/update.apk",
   "urls": [
-    "https://1ffce213.r74.cpolar.top/omnihub/update.apk"
+    "http://192.168.1.2:8000/OmniHub-v1.48.apk"
   ],
   "size": 5452856,
   "sha256": "a730ddea2d13ae49d986f34b47a6cc839f7a6271eb546122d7a9a8995ba792fe",
-  "changelog": "v1.48（versionCode 49）\n\n1. Flash 游戏图标改成真实游戏截图：直接取 D:\\flash-games\\icons 的封面（icons-index.json 把 4635 个 swf 映射到截图），没有截图的才回退首字色块。\n2. 修「点开 X 不通」：没关注作者时点 X 直接跳「X 作者」页；已关注则按作者聚合第一页。\n3. 列表为空时把源自己的原因显示出来（例如「X：还没关注任何 X 作者」），不再只显示「已全部加载」。\n4. relay 清单不再把绝对地址改写成相对路径（原硬编码比对已废弃的旧域名）。\n5. 其余同 v1.46/v1.47：X 源、登录、作者页、视频下载、分类图标。",
+  "changelog": "v1.48（versionCode 49）\n\n本次由并行开发产出（v1.46–v1.48），包含此前全部累积改动：\n· 新增源：MangaDex / Eporner / Wattpad / xbooru（均免 key、带发布时间）\n· nhentai 迁到官方 v2 接口；Eporner 日期按欧洲时区解析（CET/CEST）\n· 网络层：MangaDex 反爬挑战自动重试、连接失败死主机短期跳过\n· 列表：全源为空时给出明确原因；连续无内容的源自动降级\n",
   "mandatory": false,
-  "apk": "https://29551daa.r74.cpolar.top/omnihub/update.apk",
-  "base": "https://29551daa.r74.cpolar.top",
+  "apk": "https://2f50b9a5.r6.cpolar.cn/omnihub/update.apk",
+  "base": "https://2f50b9a5.r6.cpolar.cn",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
