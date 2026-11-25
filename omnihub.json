@@ -1,7 +1,7 @@
 {
   "versionCode": 49,
   "versionName": "1.48",
-  "url": "https://78e04ffd.r74.cpolar.top/omnihub/update.apk",
+  "url": "https://ac68cb0.r74.cpolar.top/omnihub/update.apk",
   "urls": [
     "http://192.168.1.2:8000/OmniHub-v1.48.apk"
   ],
@@ -9,8 +9,8 @@
   "sha256": "a730ddea2d13ae49d986f34b47a6cc839f7a6271eb546122d7a9a8995ba792fe",
   "changelog": "v1.48（versionCode 49）\n\n本次由并行开发产出（v1.46–v1.48），包含此前全部累积改动：\n· 新增源：MangaDex / Eporner / Wattpad / xbooru（均免 key、带发布时间）\n· nhentai 迁到官方 v2 接口；Eporner 日期按欧洲时区解析（CET/CEST）\n· 网络层：MangaDex 反爬挑战自动重试、连接失败死主机短期跳过\n· 列表：全源为空时给出明确原因；连续无内容的源自动降级\n",
   "mandatory": false,
-  "apk": "https://78e04ffd.r74.cpolar.top/omnihub/update.apk",
-  "base": "https://78e04ffd.r74.cpolar.top",
+  "apk": "https://ac68cb0.r74.cpolar.top/omnihub/update.apk",
+  "base": "https://ac68cb0.r74.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/omnihub/update.json"
 }
