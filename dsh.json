@@ -1,11 +1,11 @@
 {
   "versionCode": 65,
   "versionName": "1.64",
-  "apk": "https://2e0aca77.r74.cpolar.top/update.apk",
+  "apk": "https://6b586d5c.r74.cpolar.top/update.apk",
   "sha256": "825899224adc2645419fd3bbcb38afdfbd35de3dae09d7ea0c4da2cd6667a04a",
   "size": 5592974,
   "notes": "v1.63：手机端默认进「轻壳」——打开就是会话列表，点进去看消息、打字发、流式回；整页 6.6 KB，不再是 960 KB 的桌面界面。桌面界面保留为「完整模式」，右上角一键切换。删掉精简模式（它的活儿壳接手了）。检查更新改成 GitHub raw → GitHub API → 本机 relay 三条候选，自动检查失败也会明确提示，不再静默。",
-  "base": "https://2e0aca77.r74.cpolar.top",
+  "base": "https://6b586d5c.r74.cpolar.top",
   "bootstrap": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/bootstrap.json",
   "manifest": "https://raw.githubusercontent.com/Mikoyellow/whale-dsh-config/main/dsh/update.json"
 }
